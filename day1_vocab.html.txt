@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Day 1 Vocabulary with Pronunciation</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background: #eee; }
+    button { padding: 5px 10px; cursor: pointer; }
+</style>
+<script>
+function speak(text) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    speechSynthesis.speak(utterance);
+}
+</script>
+</head>
+<body>
+<h1>Day 1 Vocabulary</h1>
+<table>
+<tr>
+    <th>英文單字</th>
+    <th>KK音標</th>
+    <th>中文意思</th>
+    <th>例句</th>
+    <th>發音</th>
+</tr>
+<tr>
+    <td>art</td>
+    <td>/ɑrt/</td>
+    <td>藝術</td>
+    <td>I like modern art.</td>
+    <td>
+        <button onclick="speak('art')">🔊 單字</button>
+        <button onclick="speak('I like modern art.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>color</td>
+    <td>/ˈkʌlər/</td>
+    <td>顏色</td>
+    <td>Red is my favorite color.</td>
+    <td>
+        <button onclick="speak('color')">🔊 單字</button>
+        <button onclick="speak('Red is my favorite color.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>canvas</td>
+    <td>/ˈkænvəs/</td>
+    <td>畫布</td>
+    <td>The artist painted on a big canvas.</td>
+    <td>
+        <button onclick="speak('canvas')">🔊 單字</button>
+        <button onclick="speak('The artist painted on a big canvas.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>brush</td>
+    <td>/brʌʃ/</td>
+    <td>畫筆</td>
+    <td>She used a small brush to paint the details.</td>
+    <td>
+        <button onclick="speak('brush')">🔊 單字</button>
+        <button onclick="speak('She used a small brush to paint the details.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>line</td>
+    <td>/laɪn/</td>
+    <td>線條</td>
+    <td>Draw a straight line.</td>
+    <td>
+        <button onclick="speak('line')">🔊 單字</button>
+        <button onclick="speak('Draw a straight line.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>common</td>
+    <td>/ˈkɑmən/</td>
+    <td>常見的</td>
+    <td>Red is a common color in art.</td>
+    <td>
+        <button onclick="speak('common')">🔊 單字</button>
+        <button onclick="speak('Red is a common color in art.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>movement</td>
+    <td>/ˈmuvmənt/</td>
+    <td>運動 / 流派</td>
+    <td>Pop art is an art movement.</td>
+    <td>
+        <button onclick="speak('movement')">🔊 單字</button>
+        <button onclick="speak('Pop art is an art movement.')">🔊 例句</button>
+    </td>
+</tr>
+<tr>
+    <td>glamour</td>
+    <td>/ˈɡlæmər/</td>
+    <td>魅力</td>
+    <td>The actress has a lot of glamour.</td>
+    <td>
+        <button onclick="speak('glamour')">🔊 單字</button>
+        <button onclick="speak('The actress has a lot of glamour.')">🔊 例句</button>
+    </td>
+</tr>
+</table>
+</body>
+</html>
