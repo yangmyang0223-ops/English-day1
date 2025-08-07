@@ -20,3 +20,4 @@
 ---
 
 👉 查看網頁版單字表：[https://yangmyang0223-ops.github.io/English-day1/](https://yangmyang0223-ops.github.io/English-day1/)
+🔸 [Day 2 – Colors in Art](https://yangmyang0223-ops.github.io/English-day1/day2.html)
