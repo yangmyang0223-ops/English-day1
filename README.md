@@ -1,5 +1,10 @@
 # English-day1：Pop Art 單字表
 
+🎥 **學習影片連結**：  
+[What is Pop Art? | Tate Kids](https://www.youtube.com/watch?v=DhEyoDCTSDQ)
+
+---
+
 以下是以 Pop Art 為主題的英文學習內容，包含：單字、KK 音標、發音連結、例句與中文翻譯。
 
 | 單字     | KK 音標     | 發音 | 例句 | 中文翻譯 |
