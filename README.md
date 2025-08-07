@@ -1,23 +1,21 @@
-# English-day1：Pop Art 單字表
+# 🎨 Becky's Art English Learning
 
-🎥 **學習影片連結**：  
-[What is Pop Art? | Tate Kids](https://www.youtube.com/watch?v=DhEyoDCTSDQ)
+歡迎來到我的藝術英文學習頁面！這裡是我專屬的 GitHub Pages 網站，每天練習 15 分鐘英文，輕鬆看懂影片、網站與說明。
+
+## 📘 每日學習內容
+
+- [Day 1 – Pop Art](https://yangmyang0223-ops.github.io/English-day1/day1.html)
+- [Day 2 – Painting Tools](https://yangmyang0223-ops.github.io/English-day1/day2.html)
+- [Day 3 – Color Theory](https://yangmyang0223-ops.github.io/English-day1/day3.html)
+- [Day 4 – Composition](https://yangmyang0223-ops.github.io/English-day1/day4.html)
+- [Day 5 – Brush Techniques](https://yangmyang0223-ops.github.io/English-day1/day5.html)
+- [Day 6 – Web Vocabulary](https://yangmyang0223-ops.github.io/English-day1/day6.html)
+- [Day 7 – Review & Quiz](https://yangmyang0223-ops.github.io/English-day1/day7.html)
+
+## ✅ 每天內容包含：
+- 🎥 影片學習連結
+- 📄 單字表（KK音標 / 發音 / 例句 / 翻譯）
+- 🧪 小測驗（隨機更新）
 
 ---
-
-以下是以 Pop Art 為主題的英文學習內容，包含：單字、KK 音標、發音連結、例句與中文翻譯。
-
-| 單字     | KK 音標     | 發音 | 例句 | 中文翻譯 |
-|----------|-------------|------|------|----------|
-| pop art  | [pɑp ɑrt]   | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/pop--_us_1.mp3) | Pop art is a modern art style. | 普普藝術是一種現代藝術風格。 |
-| vibrant  | [ˋvaɪbrənt] | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/vibrant--_us_1.mp3) | The painting is full of vibrant colors. | 這幅畫充滿鮮明色彩。 |
-| contrast | [ˋkɑn͵træst] | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/contrast--_us_1.mp3) | The artist used strong contrast in the image. | 藝術家在圖像中使用強烈對比。 |
-| comic    | [ˋkɑmɪk]    | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/comic--_us_1.mp3) | He draws comic-style artwork. | 他畫漫畫風格的作品。 |
-| glamour  | [ˋglæmɚ]    | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/glamour--_us_1.mp3) | Pop art sometimes mixes glamour with humor. | 普普藝術有時結合華麗與幽默。 |
-| movement | [ˋmuvmənt]  | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/movement--_us_1.mp3) | Pop art was an important art movement. | 普普藝術是一場重要的藝術運動。 |
-| common   | [ˋkɑmən]    | [🔊](https://ssl.gstatic.com/dictionary/static/sounds/oxford/common--_us_1.mp3) | Pop art used common objects as subjects. | 普普藝術使用日常物品作為主題。 |
-
----
-
-👉 查看網頁版單字表：[https://yangmyang0223-ops.github.io/English-day1/](https://yangmyang0223-ops.github.io/English-day1/)
-🔸 [Day 2 – Colors in Art](https://yangmyang0223-ops.github.io/English-day1/day2.html)
+Let's learn together! 💪
