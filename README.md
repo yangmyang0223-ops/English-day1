@@ -1,44 +1,40 @@
-# 🎨 藝術英文學習計劃（共七天）
+# 🎨 Becky's Art English Learning
 
-這個 GitHub 頁面是為藝術創作學習者量身打造的 7 天英文學習計劃，內容包含主題句型、單字、片語、例句與自然語調的發音練習。
-
----
-
-## 📚 學習內容連結
-
-- [Day 1](day1.html)
-- [Day 2](day2.html)
-- [Day 3](day3.html)
-- [Day 4](day4.html)
-- [Day 5](day5.html)
-- [Day 6](day6.html)
-- [Day 7](day7.html)
+歡迎來到我的藝術英文學習計畫網站！  
+這是我用來每天練習英文單字、句型與聽力的學習網站。  
+我將每一天的主題、影片連結、句子發音與單字整理成網頁，方便自己複習與朗讀。
 
 ---
 
-## 🔊 功能特色
+## 🌟 每日學習主題連結
 
-- 每個單字、片語與句子都附有自然語調的朗讀按鈕
-- 涵蓋水彩與藝術創作常見字彙
-- 每天都有主題句型與學習測驗
-- 支援手機與 iPad 瀏覽，操作簡單清晰
-
----
-
-## ✅ 如何使用
-
-1. 將所有檔案上傳到你的 GitHub 倉庫（包含 HTML 和 audio 資料夾）
-2. 前往 GitHub 倉庫的 Settings → Pages
-3. 將 GitHub Pages 設定為使用 `main` 分支和根目錄 `/`，儲存
-4. 開啟你的學習網站網址：  
-   `https://你的帳號.github.io/你的倉庫名稱/`
+| Day | 主題 | 網頁連結 |
+|-----|------|-----------|
+| Day 1 | Painting Basics 基礎繪畫 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day1.html) |
+| Day 2 | Art Tools 藝術工具 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day2.html) |
+| Day 3 | Color Theory 色彩理論 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day3.html) |
+| Day 4 | Landscape Painting 風景畫練習 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day4.html) |
+| Day 5 | Watercolor Techniques 水彩技巧 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day5.html) |
+| Day 6 | Still Life 靜物畫 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day6.html) |
+| Day 7 | Review & Practice 複習與應用 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day7.html) |
 
 ---
 
-## 👩‍🎨 作者與使用者
+## 🏠 網站首頁
 
-這套系統是為正在學習英文與藝術創作的 Becky 設計，希望能幫助妳聽得懂、說得出、學得快 ✨
+👉 點這裡開啟主頁：[English Learning Main Page](https://yangmyang0223-ops.github.io/English-learning-plan/)
 
 ---
 
-> 本頁面由 ChatGPT 與 GitHub Pages 協力完成 ❤️
+## 📌 關於這個網站
+
+這個網站是透過 GitHub Pages 製作，學習內容結合：
+
+- 🎥 主題影片（YouTube）
+- 📘 單字與片語（含發音）
+- 📝 主要句型朗讀
+- ❓ 小測驗練習
+
+---
+
+💡 希望這個網站能幫助我更輕鬆地學好英文，結合我的藝術創作與興趣 💪
