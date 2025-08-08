@@ -1,9 +1,10 @@
-# 🎨 English Learning Plan for Art
+# 🎨 藝術英文學習計劃（共七天）
 
-This repository contains a 7-day English learning program designed especially for art learners.  
-Each day includes themed vocabulary, phrases, main sentence patterns, and **natural tone audio playback** for better listening and pronunciation practice.
+這個 GitHub 頁面是為藝術創作學習者量身打造的 7 天英文學習計劃，內容包含主題句型、單字、片語、例句與自然語調的發音練習。
 
-## 📚 Contents
+---
+
+## 📚 學習內容連結
 
 - [Day 1](day1.html)
 - [Day 2](day2.html)
@@ -13,22 +14,31 @@ Each day includes themed vocabulary, phrases, main sentence patterns, and **natu
 - [Day 6](day6.html)
 - [Day 7](day7.html)
 
-## 🔊 Features
+---
 
-- 🎧 Audio playback buttons for all words and sentences
-- 🖌️ Vocabulary and phrases related to watercolor and art creation
-- ✅ Interactive quizzes (Day 1~7)
-- 🌐 Simple and clean GitHub Pages design, optimized for mobile and iPad
+## 🔊 功能特色
 
-## 💡 How to Use
-
-1. Upload all files to your GitHub repository
-2. Enable GitHub Pages in repository settings (use `main` branch and `/ (root)` directory)
-3. Visit the site at: `https://<your-username>.github.io/<repo-name>/`
-
-## 👩‍🎨 Author
-
-This project was custom-designed for Becky, who is passionate about both watercolor art and English learning. ✨
+- 每個單字、片語與句子都附有自然語調的朗讀按鈕
+- 涵蓋水彩與藝術創作常見字彙
+- 每天都有主題句型與學習測驗
+- 支援手機與 iPad 瀏覽，操作簡單清晰
 
 ---
-> Powered by ChatGPT + GitHub Pages ❤️
+
+## ✅ 如何使用
+
+1. 將所有檔案上傳到你的 GitHub 倉庫（包含 HTML 和 audio 資料夾）
+2. 前往 GitHub 倉庫的 Settings → Pages
+3. 將 GitHub Pages 設定為使用 `main` 分支和根目錄 `/`，儲存
+4. 開啟你的學習網站網址：  
+   `https://你的帳號.github.io/你的倉庫名稱/`
+
+---
+
+## 👩‍🎨 作者與使用者
+
+這套系統是為正在學習英文與藝術創作的 Becky 設計，希望能幫助妳聽得懂、說得出、學得快 ✨
+
+---
+
+> 本頁面由 ChatGPT 與 GitHub Pages 協力完成 ❤️
