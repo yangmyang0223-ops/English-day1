@@ -1,33 +1,35 @@
-# 🎨 Becky's Art English Learning
+# 🎨 Becky’s Art English Learning Plan
 
-歡迎來到我的藝術英文學習網站！  
-這是我用來每天練習英文單字、句型與聽力朗讀的地方。  
-我將每一天的主題、影片連結、句子整理成網頁，方便自己複習與朗讀。
+這是一個為 Becky 設計的 **英文學習網站**，主要目標是透過與藝術、水彩相關的主題，提升英文聽力、閱讀與口說能力。
 
 ---
 
-## 📅 每日學習主題連結
+## 📚 功能特色
 
-| Day | 主題 | 網頁連結 |
-|-----|------|---------|
-| Day 1 | Painting Basics 基礎繪畫 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day1.html) |
-| Day 2 | Art Tools 藝術工具 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day2.html) |
-| Day 3 | Color Theory 色彩理論 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day3.html) |
-| Day 4 | Landscape Painting 風景畫繪製 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day4.html) |
-| Day 5 | Watercolor Techniques 水彩技巧 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day5.html) |
-| Day 6 | Still Life 靜物畫 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day6.html) |
-| Day 7 | Review & Practice 複習與練習 | [前往學習](https://yangmyang0223-ops.github.io/English-learning-plan/day7.html) |
+- **主題式學習**：每一天有不同主題（Day 1 ~ Day 7）
+- **主要句型練習**：每天提供常用句型
+- **單字與片語表**：包含 KK 音標、發音按鈕、例句與中文翻譯
+- **自然語調發音**：所有單字與句子都可點擊播放，方便聽力與跟讀練習
+- **測驗功能**：每天有隨機題目測試，檢驗學習成效
 
 ---
 
-## 🏠 網站首頁
-[點這裡開啟首頁](https://yangmyang0223-ops.github.io/English-learning-plan/index.html)
+## 📅 每日主題
+
+- **Day 1** - Painting Basics
+- **Day 2** - Colors and Tools
+- **Day 3** - Watercolor Techniques
+- **Day 4** - Landscape Painting
+- **Day 5** - Portrait Painting
+- **Day 6** - Abstract Art
+- **Day 7** - Art Exhibition
 
 ---
 
-## ℹ️ 關於這個網站
-本網站為個人英文學習計劃，內容包含：
-- 每日學習主題與影片
-- 單字與片語表
-- 例句與中文翻譯
-- 點擊即可播放的發音功能
+## 🌐 網站連結
+
+[👉 點我進入英文學習網站](https://yangmyang0223-ops.github.io/English-learning-plan/)
+
+---
+
+## 📂 專案檔案結構
