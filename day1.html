@@ -58,7 +58,13 @@
   </script>
 </head>
 <body>
-  <h1>🎨 Day 1 – Painting Basics</h1>
+
+  <div style="margin-bottom:8px">
+  <strong id="build"></strong>
+  <button onclick="(function(){ const u=new SpeechSynthesisUtterance('Hello Becky, test voice.'); u.lang='en-US'; speechSynthesis.cancel(); speechSynthesis.speak(u); })()">🔊 測試發音</button>
+</div>
+<script>document.getElementById('build').textContent='BUILD '+new Date().toLocaleString();</script>
+<h1>🎨 Day 1 – Painting Basics</h1>
   <p class="note">提示：若沒有聲音，先點一下頁面任何發音按鈕再試；請確認裝置未靜音。</p>
 
   <h2>🎥 Theme Video</h2>
