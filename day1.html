@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
+<button onclick="speak('This page can speak now.')">🔊 測試發音</button>
+  <script>
+  // 最簡單的說話工具：呼叫 speak('想說的英文')
+  function speak(text){
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';     // 口音：美式
+    u.rate = 1;           // 速度：1 正常
+    // 嘗試用美式英文的聲音；沒有就用預設
+    const voices = speechSynthesis.getVoices();
+    const us = voices.find(v => /en(-|_)US/i.test(v.lang));
+    if (us) u.voice = us;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  }
+  // 有些瀏覽器第一次進來 voices 還沒準備好，這樣補一次
+  if (!speechSynthesis.getVoices().length) {
+    speechSynthesis.onvoiceschanged = () => {};
+  }
+</script>
+<span class="en">I'm starting with a simple sketch.</span>
+<button onclick="speak(`I'm starting with a simple sketch.`)">🔊</button>
+
+<span class="en">I use light strokes to shape the form.</span>
+<button onclick="speak(`I use light strokes to shape the form.`)">🔊</button>
   <meta charset="utf-8" />
   <title>Day 1 – Painting Basics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
