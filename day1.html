@@ -1,130 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>🎨 Day 1 – Painting Basics</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="shared.js"></script>
+  <meta charset="utf-8" />
+  <title>Day 1 – Painting Basics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.65;margin:24px;max-width:1000px}
+    h1{margin:0 0 8px}
+    h2{margin:28px 0 8px}
+    .note{color:#666;font-size:.95rem}
+    table{border-collapse:collapse;width:100%;margin-top:8px}
+    th,td{border:1px solid #ccc;padding:8px;vertical-align:top}
+    th{background:#fafafa}
+    button.speak{padding:4px 8px;border:1px solid #999;background:#f6f6f6;border-radius:6px;cursor:pointer}
+    .row{display:flex;gap:8px;align-items:center}
+    .pill{font-size:.85rem;color:#444;background:#f1f1f1;border:1px solid #ddd;border-radius:999px;padding:2px 8px}
+  </style>
+
+  <!-- 發音功能：使用瀏覽器的 Web Speech API（免伺服器、免金鑰） -->
+  <script>
+    // 取得英文語音
+    function pickEnglishVoice() {
+      const voices = speechSynthesis.getVoices();
+      // 優先挑選 en-* 的聲音（iOS 常見 'Samantha'、'Daniel' 等）
+      const en = voices.filter(v => /^en(-|_)/i.test(v.lang));
+      return en[0] || voices[0] || null;
+    }
+
+    // 說話
+    function speak(text, rate=1, pitch=1) {
+      if (!('speechSynthesis' in window)) {
+        alert('此瀏覽器不支援發音（Speech Synthesis）。請改用 Chrome / Edge / Safari。');
+        return;
+      }
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      u.rate = rate;   // 0.1 ~ 10（1 是正常）
+      u.pitch = pitch; // 0 ~ 2（1 是正常）
+      const v = pickEnglishVoice();
+      if (v) u.voice = v;
+      // 先停止可能尚未結束的前一次朗讀
+      speechSynthesis.cancel();
+      speechSynthesis.speak(u);
+    }
+
+    // iOS/部分瀏覽器第一次需要用戶互動才能發聲，
+    // 我們在頁面載入後預載 voices（不會出聲）
+    document.addEventListener('DOMContentLoaded', () => {
+      if ('speechSynthesis' in window) {
+        speechSynthesis.getVoices(); // 觸發載入
+        // 部分瀏覽器會在 voices 準備好時觸發這個事件
+        speechSynthesis.onvoiceschanged = () => {
+          // console.log('voices ready', speechSynthesis.getVoices());
+        };
+      }
+    });
+  </script>
 </head>
 <body>
+  <h1>🎨 Day 1 – Painting Basics</h1>
+  <p class="note">提示：若沒有聲音，先點一下頁面任何發音按鈕再試；請確認裝置未靜音。</p>
 
-<!-- 測試用紅色文字 -->
-<h1 style="color:#d00; font-weight:700;">BUILD TEST 10:22</h1>
+  <h2>🎥 Theme Video</h2>
+  <p><a href="https://www.youtube.com/watch?v=7ZeVjnKf5U" target="_blank" rel="noopener">https://www.youtube.com/watch?v=7ZeVjnKf5U</a></p>
 
-<h1>🎨 Day 1 – Painting Basics</h1>
+  <h2>✍️ Main Sentence Patterns</h2>
+  <ul>
+    <li class="row">
+      <span class="pill">Sentence 1</span>
+      <span class="en">I’m starting with a simple sketch.</span>
+      <button class="speak" onclick="speak(`I'm starting with a simple sketch.`)">🔊 朗讀</button>
+    </li>
+    <li class="row">
+      <span class="pill">Sentence 2</span>
+      <span class="en">I use light strokes to shape the form.</span>
+      <button class="speak" onclick="speak(`I use light strokes to shape the form.`)">🔊 朗讀</button>
+    </li>
+  </ul>
 
-<section>
-    <h2>📽 Theme Video</h2>
-    <p><a href="https://www.youtube.com/watch?v=7ZeVjnKf5U" target="_blank">https://www.youtube.com/watch?v=7ZeVjnKf5U</a></p>
-</section>
+  <h2>📚 Vocabulary and Phrases</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Word/Phrase</th>
+        <th>KK Phonetic</th>
+        <th>Pronunciation（按鈕）</th>
+        <th>Example Sentence</th>
+        <th>中文翻譯</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>canvas</td>
+        <td>ˈkæn.vəs</td>
+        <td><button class="speak" onclick="speak('canvas')">🔊 canvas</button></td>
+        <td>She painted a landscape on a large canvas.</td>
+        <td>她在一塊大畫布上畫了一幅風景畫。</td>
+      </tr>
+      <tr>
+        <td>easel</td>
+        <td>ˈiː.zəl</td>
+        <td><button class="speak" onclick="speak('easel')">🔊 easel</button></td>
+        <td>The painting is displayed on an easel.</td>
+        <td>畫作放在畫架上展示。</td>
+      </tr>
+      <tr>
+        <td>sketch</td>
+        <td>skɛtʃ</td>
+        <td><button class="speak" onclick="speak('sketch')">🔊 sketch</button></td>
+        <td>He made a quick sketch before painting.</td>
+        <td>他在上色前先快速勾勒了一張草圖。</td>
+      </tr>
+      <tr>
+        <td>outline</td>
+        <td>ˈaʊtˌlaɪn</td>
+        <td><button class="speak" onclick="speak('outline')">🔊 outline</button></td>
+        <td>Draw the outline first.</td>
+        <td>先畫出輪廓。</td>
+      </tr>
+      <tr>
+        <td>draw a line</td>
+        <td>drɔ ə laɪn</td>
+        <td><button class="speak" onclick="speak('draw a line')">🔊 draw a line</button></td>
+        <td>Use a pencil to draw a line across the page.</td>
+        <td>用鉛筆在紙上畫一條線。</td>
+      </tr>
+      <tr>
+        <td>fill in</td>
+        <td>fɪl ɪn</td>
+        <td><button class="speak" onclick="speak('fill in')">🔊 fill in</button></td>
+        <td>Fill in the shapes with color.</td>
+        <td>把形狀塗上顏色。</td>
+      </tr>
+      <tr>
+        <td>light strokes</td>
+        <td>laɪt stroʊks</td>
+        <td><button class="speak" onclick="speak('light strokes')">🔊 light strokes</button></td>
+        <td>Start with light strokes to build the form.</td>
+        <td>從輕筆觸開始，建立畫面結構。</td>
+      </tr>
+    </tbody>
+  </table>
 
-<section>
-    <h2>📝 Main Sentence Patterns</h2>
-    <ul>
-        <li>
-            <span class="en">I’m starting with a simple sketch.</span>
-            <button onclick="speak('I’m starting with a simple sketch.')">🔊</button>
-            <div class="note">我從一張簡單的草圖開始。</div>
-        </li>
-        <li>
-            <span class="en">I use light strokes to shape the form.</span>
-            <button onclick="speak('I use light strokes to shape the form.')">🔊</button>
-            <div class="note">我用輕筆觸來建立立體結構。</div>
-        </li>
-    </ul>
-</section>
+  <h2>📝 Quiz（小測驗）</h2>
+  <ol>
+    <li>
+      What is a canvas?
+      <ol type="a">
+        <li>A kind of paint</li>
+        <li>A type of brush</li>
+        <li><strong>A surface used for painting</strong></li>
+        <li>A drawing tool</li>
+      </ol>
+      <div class="note">Answer: C — A canvas is a surface used for painting.</div>
+    </li>
+    <li>
+      What is the purpose of a sketch?
+      <ol type="a">
+        <li>To frame the artwork</li>
+        <li>To fill in colors</li>
+        <li><strong>To create a rough outline</strong></li>
+        <li>To clean the brushes</li>
+      </ol>
+      <div class="note">Answer: C — A sketch is a rough outline made before painting.</div>
+    </li>
+  </ol>
 
-<section>
-    <h2>📚 Vocabulary and Phrases</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Word/Phrase</th>
-                <th>KK Phonetic</th>
-                <th>Pronunciation</th>
-                <th>Example Sentence</th>
-                <th>中文翻譯</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>canvas</td>
-                <td>ˈkænvəs</td>
-                <td><button onclick="speak('canvas')">🔊</button></td>
-                <td>She painted a landscape on a large canvas.</td>
-                <td>她在一張畫布上畫了一幅風景畫。</td>
-            </tr>
-            <tr>
-                <td>easel</td>
-                <td>ˈiːzəl</td>
-                <td><button onclick="speak('easel')">🔊</button></td>
-                <td>The painting is displayed on an easel.</td>
-                <td>畫作放在畫架上展示。</td>
-            </tr>
-            <tr>
-                <td>sketch</td>
-                <td>skɛtʃ</td>
-                <td><button onclick="speak('sketch')">🔊</button></td>
-                <td>He made a quick sketch before painting.</td>
-                <td>他在上色前先快速勾勒了一張草圖。</td>
-            </tr>
-            <tr>
-                <td>outline</td>
-                <td>ˈaʊtˌlaɪn</td>
-                <td><button onclick="speak('outline')">🔊</button></td>
-                <td>Draw the outline first.</td>
-                <td>先畫出輪廓。</td>
-            </tr>
-            <tr>
-                <td>draw a line</td>
-                <td>drɔ ə laɪn</td>
-                <td><button onclick="speak('draw a line')">🔊</button></td>
-                <td>Use a pencil to draw a line across the page.</td>
-                <td>用鉛筆在紙上畫一條線。</td>
-            </tr>
-            <tr>
-                <td>fill in</td>
-                <td>fɪl ɪn</td>
-                <td><button onclick="speak('fill in')">🔊</button></td>
-                <td>Fill in the shapes with color.</td>
-                <td>把形狀塗上顏色。</td>
-            </tr>
-            <tr>
-                <td>light strokes</td>
-                <td>laɪt stroʊks</td>
-                <td><button onclick="speak('light strokes')">🔊</button></td>
-                <td>Start with light strokes to build the form.</td>
-                <td>從輕筆觸開始，建立畫面結構。</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-
-<section>
-    <h2>📝 Quiz</h2>
-    <ol>
-        <li>
-            What is a canvas?
-            <ul>
-                <li>a. A kind of paint</li>
-                <li>b. A type of brush</li>
-                <li>c. A surface used for painting</li>
-                <li>d. A drawing tool</li>
-            </ul>
-            <strong>Answer:</strong> C – A canvas is a surface used for painting.
-        </li>
-        <li>
-            What is the purpose of a sketch?
-            <ul>
-                <li>a. To frame the artwork</li>
-                <li>b. To fill in colors</li>
-                <li>c. To create a rough outline</li>
-                <li>d. To clean the brushes</li>
-            </ul>
-            <strong>Answer:</strong> C – A sketch is a rough outline made before painting.
-        </li>
-    </ol>
-</section>
-
+  <hr />
+  <p class="note">
+    ✅ 測試技巧：若剛開頁沒有出聲，先隨便按一次「🔊 朗讀」讓瀏覽器取得發聲權限，之後就正常了。  
+    若網頁更新卻看不到變化，可在網址後面加 <code>?v=1</code>（例如 <code>day1.html?v=1</code>）清快取。
+  </p>
 </body>
 </html>
