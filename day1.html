@@ -7,7 +7,14 @@
 </head>
 <body>
 <h1>🎨 Day 1 – Painting Basics</h1>
+<p id="ver" style="color:#d00;font-weight:700">BUILD TEST 10:15</p>
 
+<button onclick="(function(){
+  const u=new SpeechSynthesisUtterance('This page can speak now.');
+  u.lang='en-US'; u.rate=1;
+  const v=speechSynthesis.getVoices().find(v=>/en(-|_)US/i.test(v.lang))||null;
+  if(v) u.voice=v; speechSynthesis.cancel(); speechSynthesis.speak(u);
+})()">🔊 測試發音</button>
 <section>
     <h2>🎥 Theme Video</h2>
     <p><a href="https://www.youtube.com/watch?v=7ZeVjnKf5U" target="_blank">https://www.youtube.com/watch?v=7ZeVjnKf5U</a></p>
