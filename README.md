@@ -1,35 +1,57 @@
-# 🎨 Becky’s Art English Learning Plan
+# 📖 我的英文學習網站
 
-這是一個為 Becky 設計的 **英文學習網站**，主要目標是透過與藝術、水彩相關的主題，提升英文聽力、閱讀與口說能力。
+這是一個專門幫我自己學英文的網站。  
+裡面有 **Day 1 ~ Day 7** 的課程，主題跟藝術、水彩有關。  
+每一天都會有單字、句型、發音按鈕和小測驗。
 
 ---
 
-## 📚 功能特色
+## 🛠 怎麼用
 
-- **主題式學習**：每一天有不同主題（Day 1 ~ Day 7）
-- **主要句型練習**：每天提供常用句型
-- **單字與片語表**：包含 KK 音標、發音按鈕、例句與中文翻譯
-- **自然語調發音**：所有單字與句子都可點擊播放，方便聽力與跟讀練習
-- **測驗功能**：每天有隨機題目測試，檢驗學習成效
+1. 打開首頁 [點我進入](https://yangmyang0223-ops.github.io/English-learning-plan/)
+2. 選擇要學習的 Day（1~7）
+3. 單字和句子旁邊有喇叭，按下去會有自然語調的英文發音
+4. 做完當天的測驗
+5. 回去複習自己常忘記的單字
 
 ---
 
 ## 📅 每日主題
 
-- **Day 1** - Painting Basics
-- **Day 2** - Colors and Tools
-- **Day 3** - Watercolor Techniques
-- **Day 4** - Landscape Painting
-- **Day 5** - Portrait Painting
-- **Day 6** - Abstract Art
-- **Day 7** - Art Exhibition
+- **Day 1** - 繪畫基礎
+- **Day 2** - 顏色與工具
+- **Day 3** - 水彩技巧
+- **Day 4** - 風景畫
+- **Day 5** - 人像畫
+- **Day 6** - 抽象藝術
+- **Day 7** - 藝術展覽
 
 ---
 
-## 🌐 網站連結
+## 📂 檔案內容
 
-[👉 點我進入英文學習網站](https://yangmyang0223-ops.github.io/English-learning-plan/)
+- `index.html`：首頁
+- `day1.html` ~ `day7.html`：每天的課程內容
+- `shared.js`：控制發音按鈕的程式
+- `style.css`：網站的外觀
+- `README.md`：這份說明
 
 ---
 
-## 📂 專案檔案結構
+## 📝 更新記錄
+
+- 2025/08/09 - 新增發音功能，修正 KK 音標
+- 2025/08/08 - 完成 Day 1 ~ Day 7 頁面
+- 2025/08/07 - 建立網站
+
+---
+
+## 🚀 重新部署（Trigger Redeploy）
+
+如果更新了網站檔案但網頁沒有變化，可以這樣做：
+1. 打開這個 `README.md` 檔案
+2. 在最後加一行隨便的文字（例如：`Updated at YYYY/MM/DD HH:MM`）
+3. 按 **Commit changes**
+4. GitHub Pages 會自動重新建置網站
+
+✅ 範例：
