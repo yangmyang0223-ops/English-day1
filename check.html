@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>English Plan – Cache Bust Checker</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans",sans-serif;line-height:1.6;padding:24px}
+    h1{margin:0 0 8px}
+    .note{color:#555;margin-bottom:16px}
+    ul{padding-left:1.2rem}
+    a{display:inline-block;margin:4px 0;text-decoration:none}
+    .time{font-family:ui-monospace,Consolas,monospace;color:#666}
+  </style>
+</head>
+<body>
+  <h1>English Learning Plan – 破快取檢查</h1>
+  <p class="note">點以下連結會自動加上 <code>?v=時間戳</code>，避免讀到舊快取。</p>
+  <p>現在時間：<span id="now" class="time"></span></p>
+  <ul id="links"></ul>
+
+  <script>
+    const pages = ["day1","day2","day3","day4","day5","day6","day7","index"];
+    const v = new Date().toISOString().replace(/[-:T.Z]/g,"").slice(0,14); // yyyymmddhhmmss
+    document.getElementById('now').textContent = new Date().toLocaleString();
+    const ul = document.getElementById('links');
+    pages.forEach(p=>{
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = `${p}.html?v=${v}`;
+      a.textContent = `${p}.html?v=${v}`;
+      a.target = "_blank";
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+  </script>
+</body>
+</html>
