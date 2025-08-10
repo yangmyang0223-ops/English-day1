@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Probe — FINAL-v3 2025-08-10 04:26:50</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<h1>🔎 Probe <span class="badge">FINAL-v3 2025-08-10 04:26:50</span></h1>
+<ol>
+  <li id="p1">HTML：❌</li>
+  <li id="p2">shared.js：❌</li>
+  <li id="p3">autoAttachTTS：❌</li>
+</ol>
+<script>
+document.getElementById('p1').textContent='HTML：✅';
+const s=document.createElement('script'); s.src='shared.js?v='+Date.now();
+s.onload=()=>{
+  document.getElementById('p2').textContent='shared.js：✅';
+  try{ autoAttachTTS(); document.getElementById('p3').textContent='autoAttachTTS：✅'; }
+  catch(e){ document.getElementById('p3').textContent='autoAttachTTS：❌ '+e; }
+};
+s.onerror=()=>{ document.getElementById('p2').textContent='shared.js：❌ 載入失敗'; };
+document.head.appendChild(s);
+</script>
+</body></html>
