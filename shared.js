@@ -89,3 +89,10 @@ function autoAttachTTS() {
 // 讓 HTML 可以呼叫
 window.autoAttachTTS = autoAttachTTS;
 window.speak = speak;
+
+// 自動啟動：頁面載入後執行 autoAttachTTS()
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', autoAttachTTS);
+} else {
+  autoAttachTTS();
+}
