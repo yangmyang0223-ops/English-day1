@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Which tool helps you mix colors?",
+    "options": [
+      "Palette",
+      "Brush",
+      "Canvas",
+      "Easel"
+    ],
+    "answer": 0,
+    "translation": "哪一個工具幫助你混色？"
+  },
+  {
+    "question": "Which paint dries quickly on paper?",
+    "options": [
+      "Watercolor",
+      "Oil paint",
+      "Acrylic",
+      "Charcoal"
+    ],
+    "answer": 0,
+    "translation": "哪一種顏料在紙上乾得快？"
+  },
+  {
+    "question": "Which tool is used to apply thick paint?",
+    "options": [
+      "Pencil",
+      "Palette knife",
+      "Eraser",
+      "Ruler"
+    ],
+    "answer": 1,
+    "translation": "哪個工具用來上厚塗？"
+  },
+  {
+    "question": "Which paint is bright and opaque?",
+    "options": [
+      "Watercolor",
+      "Acrylic",
+      "Ink",
+      "Chalk"
+    ],
+    "answer": 1,
+    "translation": "哪一種顏料鮮明且不透明？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I use different brushes for details.",
+    "options": [
+      "我用不同的畫筆處理細節。",
+      "我用畫架展示作品。",
+      "我把顏色全部混在一起。",
+      "我只用一支筆完成全部。"
+    ],
+    "answer": 0,
+    "translation": "聽力：選出句子意思"
+  }
+]

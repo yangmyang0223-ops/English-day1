@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Which pair is complementary?",
+    "options": [
+      "Red and orange",
+      "Blue and orange",
+      "Green and yellow",
+      "Purple and magenta"
+    ],
+    "answer": 1,
+    "translation": "哪一組是互補色？"
+  },
+  {
+    "question": "Lowering saturation makes the image…",
+    "options": [
+      "Softer",
+      "Brighter",
+      "Darker only",
+      "More detailed"
+    ],
+    "answer": 0,
+    "translation": "降低彩度會讓畫面…？"
+  },
+  {
+    "question": "Value mainly controls…",
+    "options": [
+      "Hue",
+      "Brightness",
+      "Texture",
+      "Temperature"
+    ],
+    "answer": 1,
+    "translation": "明度主要控制…？"
+  },
+  {
+    "question": "Analogous colors are…",
+    "options": [
+      "Opposite on the wheel",
+      "Neighbors on the wheel",
+      "Random picks",
+      "Black and white"
+    ],
+    "answer": 1,
+    "translation": "類似色是…？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "Cool colors feel calm.",
+    "options": [
+      "冷色讓人感到平靜。",
+      "冷色讓人感到焦躁。",
+      "冷色更明亮。",
+      "冷色更透明。"
+    ],
+    "answer": 0,
+    "translation": "聽力：選出句子意思"
+  }
+]

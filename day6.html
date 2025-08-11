@@ -1,33 +1,63 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Day 6 – Abstract Art — FINAL-v3 2025-08-10 04:26:50</title>
-<link rel="stylesheet" href="style.css">
-<script src="shared.js"></script>
-</head><body>
-<header><h1>Day 6 – Abstract Art <span class="badge">FINAL-v3 2025-08-10 04:26:50</span></h1></header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Day 6 – Abstract Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="shared.js"></script>
+  
+  <style>
+    .qz { line-height: 1.7; }
+    .qz .q { margin:.6rem 0 .3rem; font-weight:600; }
+    .actions { margin-top:.8rem; }
+    button { cursor:pointer; }
+    .hint { color:#666; font-size:.95rem; margin:-.4rem 0 .6rem; }
+    table.vocab td { vertical-align: middle; }
+    .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700}
+  </style>
+
+  <script src="quiz.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🎨 Day 6 – Abstract Art</h1>
+</header>
 
 <section>
-  <h2>📺 Theme Video</h2>
-  <p><a href="https://www.youtube.com/watch?v=6H1K8L6w3UE" target="_blank">https://www.youtube.com/watch?v=6H1K8L6w3UE</a></p>
+  <h2>✍️ Main Sentence Patterns</h2>
+  <ul>
+    <li><span data-say="Focus on shapes, rhythm, and balance.">Focus on shapes, rhythm, and balance.</span></li>
+<li><span data-say="Let color guide your composition.">Let color guide your composition.</span></li>
+  </ul>
+  <p class="hint">提示：有底線的英文都能點擊發音。</p>
 </section>
 
 <section>
-  <h2>✏️ Main Sentence Patterns</h2>
-  <ul><li data-say="Focus on shapes, rhythm, and balance.">Focus on shapes, rhythm, and balance.</li>
-<li data-say="Let color guide your composition.">Let color guide your composition.</li></ul>
-</section>
-
-<section>
-  <h2>📝 Vocabulary and Phrases</h2>
-  <table>
-    <thead><tr><th>Word/Phrase</th><th>KK Phonetic</th><th>Example Sentence</th><th>中文翻譯</th></tr></thead>
-    <tbody><tr><td data-say="gesture">gesture</td><td>ˈdʒɛstʃər</td><td data-say="Use a bold gesture to start the painting.">Use a bold gesture to start the painting.</td><td>用大膽的手勢筆觸開始。</td></tr>
-<tr><td data-say="contrast">contrast</td><td>ˈkɒntræst</td><td data-say="Increase contrast for stronger impact.">Increase contrast for stronger impact.</td><td>增加對比帶來更強的力度。</td></tr>
-<tr><td data-say="texture">texture</td><td>ˈtɛkstʃər</td><td data-say="Create texture with layers and tools.">Create texture with layers and tools.</td><td>用層次與工具創造肌理。</td></tr>
-<tr><td data-say="composition">composition</td><td>ˌkɒmpəˈzɪʃən</td><td data-say="Balance the composition with negative space.">Balance the composition with negative space.</td><td>用留白平衡構圖。</td></tr>
-<tr><td data-say="experiment">experiment</td><td>ɪkˈspɛrɪmənt</td><td data-say="Experiment with unexpected color pairs.">Experiment with unexpected color pairs.</td><td>嘗試意想不到的配色。</td></tr></tbody>
+  <h2>🖊️ Vocabulary and Phrases</h2>
+  <table class="vocab" border="1" cellpadding="6" cellspacing="0">
+    <thead><tr><th>Word/Phrase</th><th>KK</th><th>Example</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span data-say="gesture">gesture</span></td><td>/ˈdʒɛstʃər/</td><td><span data-say="Use a bold gesture to start the painting.">Use a bold gesture to start the painting.</span></td><td>用大膽手勢筆觸開始。</td></tr>
+<tr><td><span data-say="contrast">contrast</span></td><td>/ˈkɒntræst/</td><td><span data-say="Increase contrast for stronger impact.">Increase contrast for stronger impact.</span></td><td>增加對比以增強張力。</td></tr>
+<tr><td><span data-say="texture">texture</span></td><td>/ˈtɛkstʃər/</td><td><span data-say="Create texture with layers and tools.">Create texture with layers and tools.</span></td><td>用層次與工具創造肌理。</td></tr>
+<tr><td><span data-say="composition">composition</span></td><td>/ˌkɒmpəˈzɪʃən/</td><td><span data-say="Balance the composition with negative space.">Balance the composition with negative space.</span></td><td>用留白平衡構圖。</td></tr>
+<tr><td><span data-say="experiment">experiment</span></td><td>/ɪkˈspɛrɪmənt/</td><td><span data-say="Experiment with unexpected color pairs.">Experiment with unexpected color pairs.</span></td><td>嘗試意想不到的配色。</td></tr>
+    </tbody>
   </table>
 </section>
 
-<p><a href="index.html?v=1">⬅ Back to index</a></p>
-</body></html>
+<section id="quiz">
+  <h2>📝 Quiz – Day 6</h2>
+  <p class="hint">點英文可聽發音；作答後按「批改」。</p>
+  <div id="quiz-mount">載入題庫中…</div>
+</section>
+
+<p style="margin-top:20px"><a href="index.html">🔙 Back to index</a></p>
+
+<script>
+  loadQuiz('day6-quiz.json?v=' + Date.now(), '#quiz-mount');
+</script>
+</body>
+</html>

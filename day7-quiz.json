@@ -1,0 +1,58 @@
+[
+  {
+    "question": "A label usually includes…",
+    "options": [
+      "Random notes",
+      "Title and medium",
+      "Ticket prices",
+      "Shipping info"
+    ],
+    "answer": 1,
+    "translation": "標牌通常包含…？"
+  },
+  {
+    "question": "Consistent spacing helps…",
+    "options": [
+      "Make the room smaller",
+      "Create a clean layout",
+      "Hide mistakes",
+      "Brighten colors"
+    ],
+    "answer": 1,
+    "translation": "一致的間距有助於…？"
+  },
+  {
+    "question": "Lighting should avoid…",
+    "options": [
+      "Glare",
+      "Even brightness",
+      "Accents",
+      "Dimmers"
+    ],
+    "answer": 0,
+    "translation": "照明應避免…？"
+  },
+  {
+    "question": "An artist statement is about…",
+    "options": [
+      "Art theory only",
+      "Your ideas and process",
+      "Price list",
+      "Gallery policies"
+    ],
+    "answer": 1,
+    "translation": "藝術家自述主要關於…？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "Arrange the works with consistent spacing.",
+    "options": [
+      "把作品以一致間距擺放。",
+      "把作品堆在一起。",
+      "只擺最大件的作品。",
+      "只留白不掛作品。"
+    ],
+    "answer": 0,
+    "translation": "聽力：選出句子意思"
+  }
+]

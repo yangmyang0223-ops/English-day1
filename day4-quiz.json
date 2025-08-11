@@ -1,0 +1,58 @@
+[
+  {
+    "question": "To suggest depth, you can use…",
+    "options": [
+      "Value shifts",
+      "More outlines",
+      "Random colors",
+      "Heavy textures only"
+    ],
+    "answer": 0,
+    "translation": "要表現景深，可以利用…？"
+  },
+  {
+    "question": "Which part is closest to the viewer?",
+    "options": [
+      "Background",
+      "Foreground",
+      "Horizon",
+      "Sky"
+    ],
+    "answer": 1,
+    "translation": "哪個部分距離觀者最近？"
+  },
+  {
+    "question": "Cooler colors in landscapes usually…",
+    "options": [
+      "Come forward",
+      "Recede",
+      "Look warmer",
+      "Add texture"
+    ],
+    "answer": 1,
+    "translation": "風景畫中的冷色通常…？"
+  },
+  {
+    "question": "Which keeps compositions stable?",
+    "options": [
+      "Straight horizon",
+      "Tilted horizon",
+      "No horizon",
+      "High contrast only"
+    ],
+    "answer": 0,
+    "translation": "什麼能讓構圖更穩定？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "Layer colors from background to foreground.",
+    "options": [
+      "由背景到前景逐層疊色。",
+      "只上一次顏色。",
+      "先做前景再做背景。",
+      "所有顏色同時上。"
+    ],
+    "answer": 0,
+    "translation": "聽力：選出句子意思"
+  }
+]

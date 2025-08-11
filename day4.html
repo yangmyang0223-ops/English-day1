@@ -1,33 +1,63 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Day 4 – Landscape Painting — FINAL-v3 2025-08-10 04:26:50</title>
-<link rel="stylesheet" href="style.css">
-<script src="shared.js"></script>
-</head><body>
-<header><h1>Day 4 – Landscape Painting <span class="badge">FINAL-v3 2025-08-10 04:26:50</span></h1></header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Day 4 – Landscape Painting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="shared.js"></script>
+  
+  <style>
+    .qz { line-height: 1.7; }
+    .qz .q { margin:.6rem 0 .3rem; font-weight:600; }
+    .actions { margin-top:.8rem; }
+    button { cursor:pointer; }
+    .hint { color:#666; font-size:.95rem; margin:-.4rem 0 .6rem; }
+    table.vocab td { vertical-align: middle; }
+    .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700}
+  </style>
+
+  <script src="quiz.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🎨 Day 4 – Landscape Painting</h1>
+</header>
 
 <section>
-  <h2>📺 Theme Video</h2>
-  <p><a href="https://www.youtube.com/watch?v=0Kx6qkQkYJk" target="_blank">https://www.youtube.com/watch?v=0Kx6qkQkYJk</a></p>
+  <h2>✍️ Main Sentence Patterns</h2>
+  <ul>
+    <li><span data-say="Start with a light sketch of the horizon.">Start with a light sketch of the horizon.</span></li>
+<li><span data-say="Layer colors from background to foreground.">Layer colors from background to foreground.</span></li>
+  </ul>
+  <p class="hint">提示：有底線的英文都能點擊發音。</p>
 </section>
 
 <section>
-  <h2>✏️ Main Sentence Patterns</h2>
-  <ul><li data-say="Start with a light sketch of the horizon.">Start with a light sketch of the horizon.</li>
-<li data-say="Layer colors from background to foreground.">Layer colors from background to foreground.</li></ul>
-</section>
-
-<section>
-  <h2>📝 Vocabulary and Phrases</h2>
-  <table>
-    <thead><tr><th>Word/Phrase</th><th>KK Phonetic</th><th>Example Sentence</th><th>中文翻譯</th></tr></thead>
-    <tbody><tr><td data-say="horizon">horizon</td><td>həˈraɪzən</td><td data-say="Keep the horizon straight in the composition.">Keep the horizon straight in the composition.</td><td>讓地平線保持水平。</td></tr>
-<tr><td data-say="foreground">foreground</td><td>ˈfɔːrˌɡraʊnd</td><td data-say="Add texture to the foreground grass.">Add texture to the foreground grass.</td><td>在前景草地加上質感。</td></tr>
-<tr><td data-say="background">background</td><td>ˈbækˌɡraʊnd</td><td data-say="Blur the background slightly.">Blur the background slightly.</td><td>把背景稍微模糊。</td></tr>
-<tr><td data-say="depth">depth</td><td>dɛpθ</td><td data-say="Use value shifts to suggest depth.">Use value shifts to suggest depth.</td><td>用明度變化來呈現景深。</td></tr>
-<tr><td data-say="atmospheric perspective">atmospheric perspective</td><td>ˌætməˈsfɛrɪk pərˈspɛktɪv</td><td data-say="Cooler colors help the distance recede.">Cooler colors help the distance recede.</td><td>冷色讓遠方往後退。</td></tr></tbody>
+  <h2>🖊️ Vocabulary and Phrases</h2>
+  <table class="vocab" border="1" cellpadding="6" cellspacing="0">
+    <thead><tr><th>Word/Phrase</th><th>KK</th><th>Example</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span data-say="horizon">horizon</span></td><td>/həˈraɪzən/</td><td><span data-say="Keep the horizon straight in the composition.">Keep the horizon straight in the composition.</span></td><td>地平線要保持水平。</td></tr>
+<tr><td><span data-say="foreground">foreground</span></td><td>/ˈfɔːrˌɡraʊnd/</td><td><span data-say="Add texture to the foreground grass.">Add texture to the foreground grass.</span></td><td>為前景草地增加質感。</td></tr>
+<tr><td><span data-say="background">background</span></td><td>/ˈbækˌɡraʊnd/</td><td><span data-say="Blur the background slightly.">Blur the background slightly.</span></td><td>把背景稍微模糊。</td></tr>
+<tr><td><span data-say="depth">depth</span></td><td>/dɛpθ/</td><td><span data-say="Use value shifts to suggest depth.">Use value shifts to suggest depth.</span></td><td>用明暗變化呈現景深。</td></tr>
+<tr><td><span data-say="atmospheric perspective">atmospheric perspective</span></td><td>/ˌætməˈsfɛrɪk pərˈspɛktɪv/</td><td><span data-say="Cooler colors help the distance recede.">Cooler colors help the distance recede.</span></td><td>冷色讓遠方往後退。</td></tr>
+    </tbody>
   </table>
 </section>
 
-<p><a href="index.html?v=1">⬅ Back to index</a></p>
-</body></html>
+<section id="quiz">
+  <h2>📝 Quiz – Day 4</h2>
+  <p class="hint">點英文可聽發音；作答後按「批改」。</p>
+  <div id="quiz-mount">載入題庫中…</div>
+</section>
+
+<p style="margin-top:20px"><a href="index.html">🔙 Back to index</a></p>
+
+<script>
+  loadQuiz('day4-quiz.json?v=' + Date.now(), '#quiz-mount');
+</script>
+</body>
+</html>

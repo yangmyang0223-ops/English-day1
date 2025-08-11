@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What should you block in first?",
+    "options": [
+      "Big shapes",
+      "Tiny details",
+      "Only highlights",
+      "Only shadows"
+    ],
+    "answer": 0,
+    "translation": "先應該鋪哪個部分？"
+  },
+  {
+    "question": "Skin tones should be…",
+    "options": [
+      "Extremely bright",
+      "Subtle",
+      "Only warm",
+      "Only cool"
+    ],
+    "answer": 1,
+    "translation": "膚色應該是…？"
+  },
+  {
+    "question": "Which helps eyes sparkle?",
+    "options": [
+      "Highlights",
+      "More outlines",
+      "Thicker shadows",
+      "Lower saturation"
+    ],
+    "answer": 0,
+    "translation": "什麼能讓眼睛更有神？"
+  },
+  {
+    "question": "Proportion mainly refers to…",
+    "options": [
+      "Texture",
+      "Relative sizes",
+      "Color",
+      "Lighting only"
+    ],
+    "answer": 1,
+    "translation": "比例主要是指…？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "Block in the big shapes first.",
+    "options": [
+      "先把大的形狀框出來。",
+      "先上最亮的地方。",
+      "先畫嘴巴。",
+      "先畫最暗的地方。"
+    ],
+    "answer": 0,
+    "translation": "聽力：選出句子意思"
+  }
+]

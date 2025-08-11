@@ -1,33 +1,63 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Day 5 – Portrait Painting — FINAL-v3 2025-08-10 04:26:50</title>
-<link rel="stylesheet" href="style.css">
-<script src="shared.js"></script>
-</head><body>
-<header><h1>Day 5 – Portrait Painting <span class="badge">FINAL-v3 2025-08-10 04:26:50</span></h1></header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Day 5 – Portrait Painting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="shared.js"></script>
+  
+  <style>
+    .qz { line-height: 1.7; }
+    .qz .q { margin:.6rem 0 .3rem; font-weight:600; }
+    .actions { margin-top:.8rem; }
+    button { cursor:pointer; }
+    .hint { color:#666; font-size:.95rem; margin:-.4rem 0 .6rem; }
+    table.vocab td { vertical-align: middle; }
+    .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700}
+  </style>
+
+  <script src="quiz.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🎨 Day 5 – Portrait Painting</h1>
+</header>
 
 <section>
-  <h2>📺 Theme Video</h2>
-  <p><a href="https://www.youtube.com/watch?v=9e2Z4QF1Sxw" target="_blank">https://www.youtube.com/watch?v=9e2Z4QF1Sxw</a></p>
+  <h2>✍️ Main Sentence Patterns</h2>
+  <ul>
+    <li><span data-say="Block in the big shapes first.">Block in the big shapes first.</span></li>
+<li><span data-say="Keep the skin tones subtle.">Keep the skin tones subtle.</span></li>
+  </ul>
+  <p class="hint">提示：有底線的英文都能點擊發音。</p>
 </section>
 
 <section>
-  <h2>✏️ Main Sentence Patterns</h2>
-  <ul><li data-say="Block in the big shapes first.">Block in the big shapes first.</li>
-<li data-say="Keep the skin tones subtle.">Keep the skin tones subtle.</li></ul>
-</section>
-
-<section>
-  <h2>📝 Vocabulary and Phrases</h2>
-  <table>
-    <thead><tr><th>Word/Phrase</th><th>KK Phonetic</th><th>Example Sentence</th><th>中文翻譯</th></tr></thead>
-    <tbody><tr><td data-say="skin tone">skin tone</td><td>skɪn toʊn</td><td data-say="Mix a natural skin tone with red, yellow, and blue.">Mix a natural skin tone with red, yellow, and blue.</td><td>用紅黃藍調自然膚色。</td></tr>
-<tr><td data-say="feature">feature</td><td>ˈfiːtʃər</td><td data-say="Place the features carefully.">Place the features carefully.</td><td>仔細安放五官位置。</td></tr>
-<tr><td data-say="highlight">highlight</td><td>ˈhaɪˌlaɪt</td><td data-say="Add highlights to the eyes.">Add highlights to the eyes.</td><td>在眼睛加上高光。</td></tr>
-<tr><td data-say="shadow">shadow</td><td>ˈʃædoʊ</td><td data-say="Observe the soft shadows on the face.">Observe the soft shadows on the face.</td><td>觀察臉上的柔和陰影。</td></tr>
-<tr><td data-say="proportion">proportion</td><td>prəˈpɔːrʃən</td><td data-say="Check the head proportion.">Check the head proportion.</td><td>檢查頭部比例。</td></tr></tbody>
+  <h2>🖊️ Vocabulary and Phrases</h2>
+  <table class="vocab" border="1" cellpadding="6" cellspacing="0">
+    <thead><tr><th>Word/Phrase</th><th>KK</th><th>Example</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span data-say="skin tone">skin tone</span></td><td>/skɪn toʊn/</td><td><span data-say="Mix a natural skin tone with red, yellow, and blue.">Mix a natural skin tone with red, yellow, and blue.</span></td><td>用紅黃藍調自然膚色。</td></tr>
+<tr><td><span data-say="feature">feature</span></td><td>/ˈfiːtʃər/</td><td><span data-say="Place the features carefully.">Place the features carefully.</span></td><td>仔細安排五官位置。</td></tr>
+<tr><td><span data-say="highlight">highlight</span></td><td>/ˈhaɪˌlaɪt/</td><td><span data-say="Add highlights to the eyes.">Add highlights to the eyes.</span></td><td>在眼睛加上高光。</td></tr>
+<tr><td><span data-say="shadow">shadow</span></td><td>/ˈʃædoʊ/</td><td><span data-say="Observe the soft shadows on the face.">Observe the soft shadows on the face.</span></td><td>觀察臉上的柔和陰影。</td></tr>
+<tr><td><span data-say="proportion">proportion</span></td><td>/prəˈpɔːrʃən/</td><td><span data-say="Check the head proportion.">Check the head proportion.</span></td><td>檢查頭部比例。</td></tr>
+    </tbody>
   </table>
 </section>
 
-<p><a href="index.html?v=1">⬅ Back to index</a></p>
-</body></html>
+<section id="quiz">
+  <h2>📝 Quiz – Day 5</h2>
+  <p class="hint">點英文可聽發音；作答後按「批改」。</p>
+  <div id="quiz-mount">載入題庫中…</div>
+</section>
+
+<p style="margin-top:20px"><a href="index.html">🔙 Back to index</a></p>
+
+<script>
+  loadQuiz('day5-quiz.json?v=' + Date.now(), '#quiz-mount');
+</script>
+</body>
+</html>

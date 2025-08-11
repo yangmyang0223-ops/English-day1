@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is a canvas?",
+    "options": [
+      "A kind of paint",
+      "A type of brush",
+      "A surface used for painting",
+      "A drawing tool"
+    ],
+    "answer": 2,
+    "translation": "畫布是什麼？"
+  },
+  {
+    "question": "What is the purpose of a sketch?",
+    "options": [
+      "To frame the artwork",
+      "To create a rough outline",
+      "To fill in colors",
+      "To clean the brushes"
+    ],
+    "answer": 1,
+    "translation": "素描的用途是什麼？"
+  },
+  {
+    "question": "Which item is used to support a canvas?",
+    "options": [
+      "Easel",
+      "Palette",
+      "Table",
+      "Lamp"
+    ],
+    "answer": 0,
+    "translation": "哪個東西用來支撐畫布？"
+  },
+  {
+    "question": "What does outline mean in drawing?",
+    "options": [
+      "Fill the shapes with color",
+      "Draw the outer edge first",
+      "Start with light strokes",
+      "Use a pencil to draw a line"
+    ],
+    "answer": 1,
+    "translation": "在繪畫中，outline 是什麼意思？"
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I use light strokes to shape the form.",
+    "options": [
+      "我先畫出輪廓。",
+      "我用輕筆觸建立結構。",
+      "我為畫作裝上畫框。",
+      "我把顏料塗上去。"
+    ],
+    "answer": 1,
+    "translation": "聽力：選出句子意思"
+  }
+]
