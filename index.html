@@ -1,60 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>English Learning Plan — Day1–30</title>
-<link rel="stylesheet" href="style.css">
-<script src="shared.js"></script>
-<style>
-  body{font-family:system-ui,Segoe UI,Roboto,Arial;line-height:1.6;margin:0;padding:24px}
-  header{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
-  h1{margin:0;font-size:1.6rem}
-  .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700;font-size:.85rem}
-  ul.links{columns:2;list-style:none;padding:0;margin:0}
-  ul.links li{margin:.35rem 0}
-  a.btn{display:inline-block;padding:.4rem .65rem;border:1px solid #ccc;border-radius:.5rem;text-decoration:none}
-  a.btn:hover{background:#f6f6f6}
-  table{border-collapse:collapse}
-  th,td{border:1px solid #ccc;padding:6px}
-</style></head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>English Learning Plan</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="shared.js"></script>
+  <style>
+    body{max-width:920px;margin:auto;padding:24px;line-height:1.7}
+    .days a{display:inline-block;margin:0 8px 8px 0}
+    .note{color:#666;font-size:.95em}
+  </style>
+</head>
 <body>
-<header>
   <h1>English Learning Plan</h1>
-  <span class="badge">Day1–30 v2</span>
-</header>
+  <p class="note">點選下方進入每日學習頁面。🗣 點句子可朗讀。</p>
 
-<section>
-  <h2>📅 4 週學習計畫</h2>
-  <table>
-    <thead><tr><th>週</th><th>主題</th><th>重點</th><th>對應日</th></tr></thead>
-    <tbody>
-      <tr><td>第2週</td><td>光影與筆觸</td><td>邊緣、明暗、肌理、筆觸控制</td><td>Day8–Day14</td></tr>
-      <tr><td>第3週</td><td>工作室與創作流程</td><td>構圖規劃、分層疊色、細節與焦點</td><td>Day15–Day21</td></tr>
-      <tr><td>第4週</td><td>描述與評論</td><td>描述作品、給回饋、展覽英文</td><td>Day22–Day28</td></tr>
-      <tr><td>第5週</td><td>成果與檢核</td><td>小型作品集檢視、口說總複習</td><td>Day29–Day30</td></tr>
-    </tbody>
-  </table>
-</section>
+  <h2>每日課程</h2>
+  <div class="days">
+    <a href="day1.html">Day 1</a>
+    <a href="day2.html">Day 2</a>
+    <a href="day3.html">Day 3</a>
+    <a href="day4.html">Day 4</a>
+    <a href="day5.html">Day 5</a>
+    <a href="day6.html">Day 6</a>
+    <a href="day7.html">Day 7</a>
+    <a href="day8.html">Day 8</a>
+    <a href="day9.html">Day 9</a>
+    <a href="day10.html">Day 10</a>
+    <a href="day11.html">Day 11</a>
+    <a href="day12.html">Day 12</a>
+    <a href="day13.html">Day 13</a>
+    <a href="day14.html">Day 14</a>
+    <a href="day15.html">Day 15</a>
+    <a href="day16.html">Day 16</a>
+    <a href="day17.html">Day 17</a>
+    <a href="day18.html">Day 18</a>
+    <a href="day19.html">Day 19</a>
+    <a href="day20.html">Day 20</a>
+    <a href="day21.html">Day 21</a>
+    <a href="day22.html">Day 22</a>
+    <a href="day23.html">Day 23</a>
+    <a href="day24.html">Day 24</a>
+    <a href="day25.html">Day 25</a>
+    <a href="day26.html">Day 26</a>
+    <a href="day27.html">Day 27</a>
+    <a href="day28.html">Day 28</a>
+    <a href="day29.html">Day 29</a>
+    <a href="day30.html">Day 30</a>
+  </div>
 
-<section>
-  <h2>快速導覽</h2>
-  <ul id="list" class="links"></ul>
-</section>
+  <h3>工具</h3>
+  <ul>
+    <li><a href="check.html">破快取檢查頁（自動附上 ?v=時間碼）</a></li>
+  </ul>
 
-<section>
-  <p><a class="btn" href="check.html">🔎 一鍵破快取檢查（Day1–30）</a></p>
-</section>
-
-<script>
-  const v = new Date().toISOString().replace(/[-:T.Z]/g,"").slice(0,14);
-  const ul = document.getElementById('list');
-  for(let i=1;i<=30;i++){
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.className = 'btn';
-    a.href = `day${i}.html?v=${v}`;
-    a.textContent = `Day ${i}`;
-    ul.appendChild(li);
-    li.appendChild(a);
-  }
-</script>
-</body></html>
+  <p class="note">Updated <span id="ts"></span></p>
+  <script>
+    document.getElementById('ts').textContent =
+      new Date().toISOString().replace('T',' ').slice(0,19);
+  </script>
+</body>
+</html>
