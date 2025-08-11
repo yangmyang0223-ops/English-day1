@@ -1,56 +1,56 @@
 [
   {
-    "question": "Which tool helps you mix colors?",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Palette",
-      "Brush",
-      "Canvas",
-      "Easel"
-    ],
-    "answer": 0,
-    "translation": "哪一個工具幫助你混色？"
-  },
-  {
-    "question": "Which paint dries quickly on paper?",
-    "options": [
-      "Watercolor",
-      "Oil paint",
-      "Acrylic",
-      "Charcoal"
-    ],
-    "answer": 0,
-    "translation": "哪一種顏料在紙上乾得快？"
-  },
-  {
-    "question": "Which tool is used to apply thick paint?",
-    "options": [
-      "Pencil",
-      "Palette knife",
-      "Eraser",
-      "Ruler"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "哪個工具用來上厚塗？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "Which paint is bright and opaque?",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Watercolor",
-      "Acrylic",
-      "Ink",
-      "Chalk"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
     ],
     "answer": 1,
-    "translation": "哪一種顏料鮮明且不透明？"
+    "translation": "焦點通常應放在哪？"
+  },
+  {
+    "question": "What helps create texture?",
+    "options": [
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
+    ],
+    "answer": 0,
+    "translation": "什麼有助於創造肌理？"
+  },
+  {
+    "question": "What do you find first before painting?",
+    "options": [
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
+    ],
+    "answer": 1,
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "I use different brushes for details.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "我用不同的畫筆處理細節。",
-      "我用畫架展示作品。",
-      "我把顏色全部混在一起。",
-      "我只用一支筆完成全部。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

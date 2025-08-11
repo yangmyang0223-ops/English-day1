@@ -1,56 +1,56 @@
 [
   {
-    "question": "Which helps balance a composition?",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Only bright colors",
-      "Negative space",
-      "Random textures",
-      "Thicker outlines"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "什麼有助於平衡構圖？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "A bold gesture is useful to…",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Start the painting",
-      "Finish details",
-      "Fix mistakes only",
-      "Blend edges only"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
+    ],
+    "answer": 1,
+    "translation": "焦點通常應放在哪？"
+  },
+  {
+    "question": "What helps create texture?",
+    "options": [
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
     ],
     "answer": 0,
-    "translation": "大膽手勢筆觸有助於…？"
+    "translation": "什麼有助於創造肌理？"
   },
   {
-    "question": "Higher contrast usually makes the image…",
+    "question": "What do you find first before painting?",
     "options": [
-      "Softer",
-      "Stronger",
-      "Blurry",
-      "Colder"
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
     ],
     "answer": 1,
-    "translation": "更高對比通常讓畫面…？"
-  },
-  {
-    "question": "Abstract art focuses on…",
-    "options": [
-      "Realistic copies",
-      "Shapes and rhythm",
-      "Only symmetry",
-      "Only color"
-    ],
-    "answer": 1,
-    "translation": "抽象藝術關注…？"
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Let color guide your composition.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "讓顏色引導你的構圖。",
-      "只用黑白來構圖。",
-      "用尺畫出構圖。",
-      "先決定主題文字。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

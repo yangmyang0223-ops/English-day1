@@ -1,56 +1,56 @@
 [
   {
-    "question": "What should you block in first?",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Big shapes",
-      "Tiny details",
-      "Only highlights",
-      "Only shadows"
-    ],
-    "answer": 0,
-    "translation": "先應該鋪哪個部分？"
-  },
-  {
-    "question": "Skin tones should be…",
-    "options": [
-      "Extremely bright",
-      "Subtle",
-      "Only warm",
-      "Only cool"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "膚色應該是…？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "Which helps eyes sparkle?",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Highlights",
-      "More outlines",
-      "Thicker shadows",
-      "Lower saturation"
-    ],
-    "answer": 0,
-    "translation": "什麼能讓眼睛更有神？"
-  },
-  {
-    "question": "Proportion mainly refers to…",
-    "options": [
-      "Texture",
-      "Relative sizes",
-      "Color",
-      "Lighting only"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
     ],
     "answer": 1,
-    "translation": "比例主要是指…？"
+    "translation": "焦點通常應放在哪？"
+  },
+  {
+    "question": "What helps create texture?",
+    "options": [
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
+    ],
+    "answer": 0,
+    "translation": "什麼有助於創造肌理？"
+  },
+  {
+    "question": "What do you find first before painting?",
+    "options": [
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
+    ],
+    "answer": 1,
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Block in the big shapes first.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "先把大的形狀框出來。",
-      "先上最亮的地方。",
-      "先畫嘴巴。",
-      "先畫最暗的地方。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

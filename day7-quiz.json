@@ -1,56 +1,56 @@
 [
   {
-    "question": "A label usually includes…",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Random notes",
-      "Title and medium",
-      "Ticket prices",
-      "Shipping info"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "標牌通常包含…？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "Consistent spacing helps…",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Make the room smaller",
-      "Create a clean layout",
-      "Hide mistakes",
-      "Brighten colors"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
     ],
     "answer": 1,
-    "translation": "一致的間距有助於…？"
+    "translation": "焦點通常應放在哪？"
   },
   {
-    "question": "Lighting should avoid…",
+    "question": "What helps create texture?",
     "options": [
-      "Glare",
-      "Even brightness",
-      "Accents",
-      "Dimmers"
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
     ],
     "answer": 0,
-    "translation": "照明應避免…？"
+    "translation": "什麼有助於創造肌理？"
   },
   {
-    "question": "An artist statement is about…",
+    "question": "What do you find first before painting?",
     "options": [
-      "Art theory only",
-      "Your ideas and process",
-      "Price list",
-      "Gallery policies"
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
     ],
     "answer": 1,
-    "translation": "藝術家自述主要關於…？"
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Arrange the works with consistent spacing.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "把作品以一致間距擺放。",
-      "把作品堆在一起。",
-      "只擺最大件的作品。",
-      "只留白不掛作品。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

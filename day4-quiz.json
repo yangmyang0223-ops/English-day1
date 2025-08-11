@@ -1,56 +1,56 @@
 [
   {
-    "question": "To suggest depth, you can use…",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Value shifts",
-      "More outlines",
-      "Random colors",
-      "Heavy textures only"
-    ],
-    "answer": 0,
-    "translation": "要表現景深，可以利用…？"
-  },
-  {
-    "question": "Which part is closest to the viewer?",
-    "options": [
-      "Background",
-      "Foreground",
-      "Horizon",
-      "Sky"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "哪個部分距離觀者最近？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "Cooler colors in landscapes usually…",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Come forward",
-      "Recede",
-      "Look warmer",
-      "Add texture"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
     ],
     "answer": 1,
-    "translation": "風景畫中的冷色通常…？"
+    "translation": "焦點通常應放在哪？"
   },
   {
-    "question": "Which keeps compositions stable?",
+    "question": "What helps create texture?",
     "options": [
-      "Straight horizon",
-      "Tilted horizon",
-      "No horizon",
-      "High contrast only"
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
     ],
     "answer": 0,
-    "translation": "什麼能讓構圖更穩定？"
+    "translation": "什麼有助於創造肌理？"
+  },
+  {
+    "question": "What do you find first before painting?",
+    "options": [
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
+    ],
+    "answer": 1,
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Layer colors from background to foreground.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "由背景到前景逐層疊色。",
-      "只上一次顏色。",
-      "先做前景再做背景。",
-      "所有顏色同時上。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

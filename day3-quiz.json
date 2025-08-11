@@ -1,56 +1,56 @@
 [
   {
-    "question": "Which pair is complementary?",
+    "question": "Which edge increases contrast?",
     "options": [
-      "Red and orange",
-      "Blue and orange",
-      "Green and yellow",
-      "Purple and magenta"
+      "Soft edge",
+      "Hard edge",
+      "Blurred edge",
+      "No edge"
     ],
     "answer": 1,
-    "translation": "哪一組是互補色？"
+    "translation": "哪一種邊緣能提高對比？"
   },
   {
-    "question": "Lowering saturation makes the image…",
+    "question": "Where should the focal point often be placed?",
     "options": [
-      "Softer",
-      "Brighter",
-      "Darker only",
-      "More detailed"
+      "Center",
+      "Rule of thirds",
+      "Corner",
+      "Random"
+    ],
+    "answer": 1,
+    "translation": "焦點通常應放在哪？"
+  },
+  {
+    "question": "What helps create texture?",
+    "options": [
+      "Dry brush",
+      "More water only",
+      "Less pigment only",
+      "Erasing"
     ],
     "answer": 0,
-    "translation": "降低彩度會讓畫面…？"
+    "translation": "什麼有助於創造肌理？"
   },
   {
-    "question": "Value mainly controls…",
+    "question": "What do you find first before painting?",
     "options": [
-      "Hue",
-      "Brightness",
-      "Texture",
-      "Temperature"
+      "The frame",
+      "The light source",
+      "The signature",
+      "The price"
     ],
     "answer": 1,
-    "translation": "明度主要控制…？"
-  },
-  {
-    "question": "Analogous colors are…",
-    "options": [
-      "Opposite on the wheel",
-      "Neighbors on the wheel",
-      "Random picks",
-      "Black and white"
-    ],
-    "answer": 1,
-    "translation": "類似色是…？"
+    "translation": "作畫前先找什麼？"
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Cool colors feel calm.",
+    "say": "Blend the colors with gentle strokes.",
     "options": [
-      "冷色讓人感到平靜。",
-      "冷色讓人感到焦躁。",
-      "冷色更明亮。",
-      "冷色更透明。"
+      "用溫柔的筆觸把顏色融合。",
+      "把顏色分開。",
+      "只用一個顏色。",
+      "把邊緣全部加硬。"
     ],
     "answer": 0,
     "translation": "聽力：選出句子意思"

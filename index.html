@@ -1,11 +1,60 @@
-<!doctype html><html lang="zh-Hant"><meta charset="utf-8">
-<title>Index</title><meta name="viewport" content="width=device-width, initial-scale=1">
-<ul>
-<li><a href="day1.html">Day 1</a></li>
-<li><a href="day2.html">Day 2</a></li>
-<li><a href="day3.html">Day 3</a></li>
-<li><a href="day4.html">Day 4</a></li>
-<li><a href="day5.html">Day 5</a></li>
-<li><a href="day6.html">Day 6</a></li>
-<li><a href="day7.html">Day 7</a></li>
-</ul>
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>English Learning Plan — Day1–30</title>
+<link rel="stylesheet" href="style.css">
+<script src="shared.js"></script>
+<style>
+  body{font-family:system-ui,Segoe UI,Roboto,Arial;line-height:1.6;margin:0;padding:24px}
+  header{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+  h1{margin:0;font-size:1.6rem}
+  .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700;font-size:.85rem}
+  ul.links{columns:2;list-style:none;padding:0;margin:0}
+  ul.links li{margin:.35rem 0}
+  a.btn{display:inline-block;padding:.4rem .65rem;border:1px solid #ccc;border-radius:.5rem;text-decoration:none}
+  a.btn:hover{background:#f6f6f6}
+  table{border-collapse:collapse}
+  th,td{border:1px solid #ccc;padding:6px}
+</style></head>
+<body>
+<header>
+  <h1>English Learning Plan</h1>
+  <span class="badge">Day1–30 v2</span>
+</header>
+
+<section>
+  <h2>📅 4 週學習計畫</h2>
+  <table>
+    <thead><tr><th>週</th><th>主題</th><th>重點</th><th>對應日</th></tr></thead>
+    <tbody>
+      <tr><td>第2週</td><td>光影與筆觸</td><td>邊緣、明暗、肌理、筆觸控制</td><td>Day8–Day14</td></tr>
+      <tr><td>第3週</td><td>工作室與創作流程</td><td>構圖規劃、分層疊色、細節與焦點</td><td>Day15–Day21</td></tr>
+      <tr><td>第4週</td><td>描述與評論</td><td>描述作品、給回饋、展覽英文</td><td>Day22–Day28</td></tr>
+      <tr><td>第5週</td><td>成果與檢核</td><td>小型作品集檢視、口說總複習</td><td>Day29–Day30</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>快速導覽</h2>
+  <ul id="list" class="links"></ul>
+</section>
+
+<section>
+  <p><a class="btn" href="check.html">🔎 一鍵破快取檢查（Day1–30）</a></p>
+</section>
+
+<script>
+  const v = new Date().toISOString().replace(/[-:T.Z]/g,"").slice(0,14);
+  const ul = document.getElementById('list');
+  for(let i=1;i<=30;i++){
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.className = 'btn';
+    a.href = `day${i}.html?v=${v}`;
+    a.textContent = `Day ${i}`;
+    ul.appendChild(li);
+    li.appendChild(a);
+  }
+</script>
+</body></html>
