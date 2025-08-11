@@ -15,15 +15,19 @@
     .hint { color:#666; font-size:.95rem; margin:-.4rem 0 .6rem; }
     table.vocab td { vertical-align: middle; }
     .badge{display:inline-block;background:#b30000;color:#fff;padding:.25rem .5rem;border-radius:.35rem;font-weight:700}
+    .video-note{color:#a33;font-size:.95rem;margin:.2rem 0 .6rem}
   </style>
 
   <script src="quiz.js"></script>
+  <script src="video.js"></script>
 </head>
 <body>
 
 <header>
-  <h1>🎨 Day 7 – Art Exhibition</h1>
+  <h1>🎨 Day 7 – Art Exhibition <span class="badge">VID+JSON 08/11 03:47</span></h1>
 </header>
+
+<section id="video-mount"></section>
 
 <section>
   <h2>✍️ Main Sentence Patterns</h2>
@@ -58,6 +62,7 @@
 
 <script>
   loadQuiz('day7-quiz.json?v=' + Date.now(), '#quiz-mount');
+  mountVideo(7, 'video-mount');
 </script>
 </body>
 </html>
