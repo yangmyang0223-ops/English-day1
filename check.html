@@ -1,2 +1,48 @@
-<!doctype html><meta charset="utf-8"><title>破快取檢查</title>
-<ul id="u"></ul><script>const v=Date.now(),u=document.getElementById('u');for(let i=1;i<=30;i++){const li=document.createElement('li');const a=document.createElement('a');a.href=`day${i}.html?v=${v}`;a.textContent=a.href; a.target="_blank"; li.appendChild(a);u.appendChild(li);}</script>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>English Learning Plan – 破快取檢查</title>
+  <style>
+    body{max-width:920px;margin:auto;padding:24px;line-height:1.7}
+    code{background:#f6f8fa;padding:2px 6px;border-radius:4px}
+    a{display:block;margin:6px 0}
+  </style>
+</head>
+<body>
+  <h1>English Learning Plan – 破快取檢查</h1>
+  <p>點以下連結會自動加上 <code>?v=時間碼</code>，避免瀏覽器快取。</p>
+  <p>現在時間：<span id="now"></span></p>
+  <div id="links"></div>
+
+  <script>
+    const now = new Date();
+    const pad = n => String(n).padStart(2,'0');
+    const v = [
+      now.getFullYear(),
+      pad(now.getMonth()+1),
+      pad(now.getDate()),
+      pad(now.getHours()),
+      pad(now.getMinutes()),
+      pad(now.getSeconds())
+    ].join('');
+
+    document.getElementById('now').textContent =
+      `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())} `
+      + `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+
+    const box = document.getElementById('links');
+    const make = (file) => {
+      const a = document.createElement('a');
+      a.href = `${file}?v=${v}`;
+      a.textContent = `${file}?v=${v}`;
+      a.target = '_blank';
+      box.appendChild(a);
+    };
+
+    for (let i=1;i<=30;i++) make(`day${i}.html`);
+    make('index.html');
+  </script>
+</body>
+</html>
