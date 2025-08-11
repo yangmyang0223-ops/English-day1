@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Vocabulary Review</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="shared.js"></script>
+  <style>
+    body{max-width:920px;margin:auto;padding:24px;line-height:1.7}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    input[type=number]{width:100px}
+    .qa{margin-top:20px;padding:16px;border:1px solid #ddd;border-radius:8px}
+    .meta{color:#666;font-size:.9em}
+    .ok{color:#0a7}
+    .bad{color:#d33}
+    .pill{display:inline-block;padding:2px 8px;border:1px solid #bbb;border-radius:999px;font-size:.85em;color:#444}
+    button{cursor:pointer}
+  </style>
+</head>
+<body>
+  <h1>Vocabulary Review</h1>
+  <p class="meta">資料來源：<code>vocab.json</code>（儲存作答紀錄於本機）</p>
+
+  <div class="row">
+    <label>出題數量 <input id="count" type="number" min="5" max="100" value="20"/></label>
+    <label>
+      方向
+      <select id="mode">
+        <option value="en2zh">英 → 中</option>
+        <option value="zh2en">中 → 英</option>
+      </select>
+    </label>
+    <label>
+      僅今日單字
+      <input id="todayOnly" type="checkbox"/>
+    </label>
+    <button id="start">開始測驗</button>
+    <a class="pill" href="check.html" target="_blank">破快取檢查</a>
+  </div>
+
+  <div id="panel" class="qa" style="display:none">
+    <div id="qMeta" class="meta"></div>
+    <h2 id="question"></h2>
+    <div class="row">
+      <input id="answer" type="text" placeholder="輸入答案後按 Enter"/>
+      <button id="speakBtn">🔈 發音</button>
+      <button id="reveal">看答案</button>
+      <button id="next">下一題</button>
+    </div>
+    <p id="feedback"></p>
+  </div>
+
+  <script>
+  // ===== 設定 =====
+  const STORAGE_KEY = 'elp_srs_stats_v1';
+  const TODAY = new Date();
+  const todayDayIndex = (()=>{ // 以 repo 現行 dayN 為準，這裡暫設由網址/日期決定；你之後可改為讀 index.html 的「今日」
+    return null; // 若要固定今天是 Day 1 就回傳 1
+  })();
+
+  // 週期衰減：每滿 1 週，weight *= 0.9（你要的「隔週 -10%、再隔週 -10%」）
+  function weeklyDecayFactor(lastSeen){
+    if(!lastSeen) return 1;
+    const weeks = Math.max(0, Math.floor((Date.now() - new Date(lastSeen).getTime()) / (7*24*3600*1000)));
+    return Math.pow(0.9, weeks);
+  }
+
+  // 當天單字必出：給最小權重下限與抽題優先
+  function dayPriorityBonus(item){
+    if (todayDayIndex && item.day === todayDayIndex) return 2.0; // 當日加倍
+    return 1.0;
+  }
+
+  // 動態權重：答錯多、久沒出現、當日字 → 權重高
+  function computeWeight(item){
+    const base = item.weight ?? 1.0;
+    const seen = item.seen ?? 0;
+    const w = (base + (item.wrong||0)*0.6 - (item.correct||0)*0.3);
+    const rec = weeklyDecayFactor(item.lastSeen);
+    const daily = dayPriorityBonus(item);
+    return Math.max(0.05, w * rec * daily);
+  }
+
+  // 儲存與載入統計
+  function loadStats(){
+    try{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }catch(e){ return {}; }
+  }
+  function saveStats(stats){ localStorage.setItem(STORAGE_KEY, JSON.stringify(stats)); }
+
+  // 合併 stats 到項目
+  function mergeStats(items, stats){
+    items.forEach(it=>{
+      const s = stats[it.id];
+      if(s){
+        it.seen = s.seen||0; it.correct = s.correct||0; it.wrong = s.wrong||0; it.lastSeen = s.lastSeen||null; it.weight = s.weight ?? 1.0;
+      }
+    });
+  }
+  function applyResultToStats(item, ok){
+    const stats = loadStats();
+    const s = stats[item.id] || {seen:0,correct:0,wrong:0,weight:1.0,lastSeen:null};
+    s.seen += 1;
+    if(ok){ s.correct += 1; s.weight = Math.max(0.1, s.weight * 0.85); } // 答對降低權重
+    else  { s.wrong  += 1; s.weight = Math.min(5.0,  s.weight + 0.4); }   // 答錯提高權重
+    s.lastSeen = new Date().toISOString();
+    stats[item.id] = s;
+    saveStats(stats);
+  }
+
+  // 加權抽樣
+  function weightedSample(pool, n){
+    const arr = pool.map(it=>({it, w: computeWeight(it)}));
+    const res = [];
+    for(let k=0;k<n && arr.length>0;k++){
+      const sum = arr.reduce((a,b)=>a+b.w,0);
+      let r = Math.random()*sum, pickIndex = 0;
+      for(let i=0;i<arr.length;i++){
+        r -= arr[i].w;
+        if(r<=0){ pickIndex = i; break; }
+      }
+      res.push(arr[pickIndex].it);
+      arr.splice(pickIndex,1);
+    }
+    return res;
+  }
+
+  // 載入資料並綁事件
+  let DATA = [];
+  fetch('vocab.json')
+    .then(r=>r.json())
+    .then(list=>{
+      DATA = list;
+      mergeStats(DATA, loadStats());
+      document.getElementById('start').disabled = false;
+    });
+
+  const elPanel = document.getElementById('panel');
+  const elQ = document.getElementById('question');
+  const elFeedback = document.getElementById('feedback');
+  const elMeta = document.getElementById('qMeta');
+  const elAns = document.getElementById('answer');
+  const elMode = document.getElementById('mode');
+  const elCount = document.getElementById('count');
+  const elTodayOnly = document.getElementById('todayOnly');
+
+  let quiz = [], idx = 0, mode = 'en2zh';
+
+  function buildQuiz(){
+    mode = elMode.value;
+    let pool = DATA.slice();
+
+    if (elTodayOnly.checked && todayDayIndex){
+      pool = pool.filter(x=>x.day===todayDayIndex);
+    }
+    // 確保當日單字最低數量（若有 today）
+    // 可視需要在這裡再強制加入
+
+    const n = Math.min(parseInt(elCount.value||20,10), pool.length);
+    quiz = weightedSample(pool, n);
+    idx = 0;
+  }
+
+  function showOne(){
+    const it = quiz[idx];
+    elPanel.style.display = 'block';
+    elFeedback.textContent = '';
+    elAns.value = '';
+    elAns.focus();
+
+    if(mode==='en2zh'){
+      elQ.textContent = it.word + (it.pos?` (${it.pos})`:'');
+      elMeta.textContent = `Day ${it.day} ｜ KK ${it.kk||''}`;
+    }else{
+      elQ.textContent = it.zh;
+      elMeta.textContent = `Day ${it.day} ｜ 目標作答：${it.word}`;
+    }
+  }
+
+  function speakCurrent(){
+    const it = quiz[idx];
+    const txt = (mode==='en2zh')? it.word : it.word;
+    window.speak && window.speak(txt);
+  }
+
+  document.getElementById('start').addEventListener('click', ()=>{
+    buildQuiz();
+    if(quiz.length===0){ alert('目前資料不足或過濾條件過嚴。'); return; }
+    showOne();
+  });
+
+  function judge(){
+    const it = quiz[idx];
+    const ans = elAns.value.trim();
+    let ok = false, expected='';
+    if(mode==='en2zh'){
+      expected = it.zh;
+      ok = ans === expected;
+    }else{
+      expected = it.word;
+      ok = ans.toLowerCase() === expected.toLowerCase();
+    }
+    applyResultToStats(it, ok);
+    elFeedback.innerHTML = ok
+      ? `<span class="ok">✅ 正確！</span>`
+      : `<span class="bad">❌ 錯誤。</span> 正確答案：<b>${expected}</b>`;
+  }
+
+  elAns.addEventListener('keydown', e=>{
+    if(e.key==='Enter'){ judge(); }
+  });
+  document.getElementById('reveal').addEventListener('click', judge);
+  document.getElementById('next').addEventListener('click', ()=>{
+    if(idx < quiz.length-1){ idx++; showOne(); }
+    else { elFeedback.innerHTML = '<b>完成本輪！可再按「開始測驗」重抽。</b>'; }
+  });
+  document.getElementById('speakBtn').addEventListener('click', speakCurrent);
+  </script>
+</body>
+</html>
