@@ -1,58 +1,83 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "EN→ZH: brushstroke",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "暈染；融合",
+      "畫布",
+      "筆觸",
+      "肌理"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 2
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "EN→ZH: pigment",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "筆觸",
+      "顏料",
+      "輪廓",
+      "畫布"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 1
   },
   {
-    "question": "What helps create texture?",
+    "question": "EN→ZH: outline",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "顏料",
+      "輪廓",
+      "暈染；融合",
+      "陰影"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
+    "answer": 1
   },
   {
-    "question": "What do you find first before painting?",
+    "question": "EN→ZH: texture",
     "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
+      "對比",
+      "肌理",
+      "暈染；融合",
+      "層次"
     ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 陰影",
+    "options": [
+      "easel",
+      "wash",
+      "shadow",
+      "palette"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 調色盤",
+    "options": [
+      "easel",
+      "glaze",
+      "composition",
+      "palette"
+    ],
+    "answer": 3
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I blend the colors with gentle strokes.",
     "options": [
       "用溫柔的筆觸把顏色融合。",
       "把顏色分開。",
       "只用一個顏色。",
       "把邊緣全部加硬。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'palette'",
+    "options": [
+      "Add palette to increase depth.",
+      "Put water on the palette.",
+      "Ignore the palette completely.",
+      "Erase the palette for more light."
+    ],
+    "answer": 0
   }
 ]

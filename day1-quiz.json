@@ -1,58 +1,83 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "EN→ZH: glaze",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "高光",
+      "暈染；融合",
+      "畫布",
+      "罩染"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 3
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "EN→ZH: pigment",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "畫架",
+      "暈染；融合",
+      "顏料",
+      "底層畫"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 2
   },
   {
-    "question": "What helps create texture?",
+    "question": "EN→ZH: texture",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "薄色塗層",
+      "輪廓",
+      "肌理",
+      "罩染"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
+    "answer": 2
   },
   {
-    "question": "What do you find first before painting?",
+    "question": "EN→ZH: blending",
     "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
+      "肌理",
+      "顏料",
+      "暈染；融合",
+      "層次"
     ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 高光",
+    "options": [
+      "pigment",
+      "shadow",
+      "highlight",
+      "canvas"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 層次",
+    "options": [
+      "highlight",
+      "glaze",
+      "outline",
+      "layer"
+    ],
+    "answer": 3
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I add texture to make it feel real.",
     "options": [
       "用溫柔的筆觸把顏色融合。",
       "把顏色分開。",
       "只用一個顏色。",
       "把邊緣全部加硬。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'glaze'",
+    "options": [
+      "Add glaze to increase depth.",
+      "Put water on the glaze.",
+      "Ignore the glaze completely.",
+      "Erase the glaze for more light."
+    ],
+    "answer": 0
   }
 ]

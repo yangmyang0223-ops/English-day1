@@ -1,22 +1,2 @@
-# 📚 我的英文學習網站（30 天）
-
-這是一個幫我自己學英文的網站。  
-目前提供 **Day 1 ~ Day 30** 的課程：主題影音、句型朗讀、單字表、題庫（可朗讀）。
-
-- 句子／單字都能點擊 **直接發音**（使用瀏覽器內建 TTS）。
-- 每天都有：主題句、單字表、題庫（含聽讀練習）。
-- 有「破快取檢查頁」可確保剛更新就能看到新版。
-
----
-
-## 🚀 如何使用
-
-1. **開啟首頁** → `https://<你的帳號>.github.io/English-learning-plan/index.html`  
-2. **選擇 Day（1~30）** 進入學習。  
-3. **點句子或單字即可朗讀**（喇叭圖示只是輔助）。  
-4. **做題庫**（含選擇題／聽讀練習）。  
-5. 若看見舊畫面，進入 `check.html` 點附帶 `?v=時間碼` 的連結即可破快取。
-
----
-
-## 🧩 檔案結構
+# Week 1 (Day1–Day7)
+- index.html / week1.html / day1.html…day7.html / dayX-quiz.json / videos.json / vocab.json / shared.js / quiz.js / video.js / style.css

@@ -1,58 +1,83 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "EN→ZH: contrast",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "調色盤",
+      "輪廓",
+      "對比",
+      "暈染；融合"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 2
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "EN→ZH: wash",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "對比",
+      "暈染；融合",
+      "輪廓",
+      "薄色塗層"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 3
   },
   {
-    "question": "What helps create texture?",
+    "question": "EN→ZH: layer",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "薄色塗層",
+      "暈染；融合",
+      "層次",
+      "畫架"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
+    "answer": 2
   },
   {
-    "question": "What do you find first before painting?",
+    "question": "EN→ZH: composition",
     "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
+      "對比",
+      "高光",
+      "構圖",
+      "肌理"
     ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 暈染；融合",
+    "options": [
+      "brushstroke",
+      "blending",
+      "composition",
+      "outline"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 筆觸",
+    "options": [
+      "highlight",
+      "layer",
+      "brushstroke",
+      "composition"
+    ],
+    "answer": 2
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I place the focal point near the rule of thirds.",
     "options": [
       "用溫柔的筆觸把顏色融合。",
       "把顏色分開。",
       "只用一個顏色。",
       "把邊緣全部加硬。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'composition'",
+    "options": [
+      "Add composition to increase depth.",
+      "Put water on the composition.",
+      "Ignore the composition completely.",
+      "Erase the composition for more light."
+    ],
+    "answer": 0
   }
 ]

@@ -1,58 +1,83 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "EN→ZH: palette",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "層次",
+      "調色盤",
+      "對比",
+      "薄色塗層"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 1
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "EN→ZH: glaze",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "對比",
+      "罩染",
+      "輪廓",
+      "薄色塗層"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 1
   },
   {
-    "question": "What helps create texture?",
+    "question": "EN→ZH: wash",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "構圖",
+      "薄色塗層",
+      "顏料",
+      "畫架"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
+    "answer": 1
   },
   {
-    "question": "What do you find first before painting?",
+    "question": "EN→ZH: underpainting",
     "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
+      "筆觸",
+      "高光",
+      "底層畫",
+      "輪廓"
     ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 對比",
+    "options": [
+      "contrast",
+      "pigment",
+      "palette",
+      "outline"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 構圖",
+    "options": [
+      "wash",
+      "composition",
+      "easel",
+      "brushstroke"
+    ],
+    "answer": 1
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I place the focal point near the rule of thirds.",
     "options": [
       "用溫柔的筆觸把顏色融合。",
       "把顏色分開。",
       "只用一個顏色。",
       "把邊緣全部加硬。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'underpainting'",
+    "options": [
+      "Add underpainting to increase depth.",
+      "Put water on the underpainting.",
+      "Ignore the underpainting completely.",
+      "Erase the underpainting for more light."
+    ],
+    "answer": 0
   }
 ]

@@ -1,0 +1,947 @@
+[
+  {
+    "id": "d1_underpainting",
+    "day": 1,
+    "word": "underpainting",
+    "kk": "ˈʌndərˌpeɪntɪŋ",
+    "pos": "n.",
+    "zh": "底層畫",
+    "example": "Start with a light underpainting."
+  },
+  {
+    "id": "d1_composition",
+    "day": 1,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d1_layer",
+    "day": 1,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d1_texture",
+    "day": 1,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d1_canvas",
+    "day": 1,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d1_wash",
+    "day": 1,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d1_easel",
+    "day": 1,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d1_glaze",
+    "day": 1,
+    "word": "glaze",
+    "kk": "ɡleɪz",
+    "pos": "n./v.",
+    "zh": "罩染",
+    "example": "Glaze the surface to add depth."
+  },
+  {
+    "id": "d1_pigment",
+    "day": 1,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d1_shadow",
+    "day": 1,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d1_brushstroke",
+    "day": 1,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d1_blending",
+    "day": 1,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d1_highlight",
+    "day": 1,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d1_outline",
+    "day": 1,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d1_palette",
+    "day": 1,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d2_canvas",
+    "day": 2,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d2_composition",
+    "day": 2,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d2_palette",
+    "day": 2,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d2_outline",
+    "day": 2,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d2_blending",
+    "day": 2,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d2_shadow",
+    "day": 2,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d2_brushstroke",
+    "day": 2,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d2_layer",
+    "day": 2,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d2_wash",
+    "day": 2,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d2_contrast",
+    "day": 2,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d2_pigment",
+    "day": 2,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d2_underpainting",
+    "day": 2,
+    "word": "underpainting",
+    "kk": "ˈʌndərˌpeɪntɪŋ",
+    "pos": "n.",
+    "zh": "底層畫",
+    "example": "Start with a light underpainting."
+  },
+  {
+    "id": "d2_easel",
+    "day": 2,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d2_texture",
+    "day": 2,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d2_highlight",
+    "day": 2,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d3_composition",
+    "day": 3,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d3_shadow",
+    "day": 3,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d3_contrast",
+    "day": 3,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d3_highlight",
+    "day": 3,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d3_layer",
+    "day": 3,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d3_outline",
+    "day": 3,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d3_canvas",
+    "day": 3,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d3_palette",
+    "day": 3,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d3_wash",
+    "day": 3,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d3_pigment",
+    "day": 3,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d3_underpainting",
+    "day": 3,
+    "word": "underpainting",
+    "kk": "ˈʌndərˌpeɪntɪŋ",
+    "pos": "n.",
+    "zh": "底層畫",
+    "example": "Start with a light underpainting."
+  },
+  {
+    "id": "d3_easel",
+    "day": 3,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d3_brushstroke",
+    "day": 3,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d3_blending",
+    "day": 3,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d3_texture",
+    "day": 3,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d4_layer",
+    "day": 4,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d4_easel",
+    "day": 4,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d4_composition",
+    "day": 4,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d4_brushstroke",
+    "day": 4,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d4_blending",
+    "day": 4,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d4_underpainting",
+    "day": 4,
+    "word": "underpainting",
+    "kk": "ˈʌndərˌpeɪntɪŋ",
+    "pos": "n.",
+    "zh": "底層畫",
+    "example": "Start with a light underpainting."
+  },
+  {
+    "id": "d4_glaze",
+    "day": 4,
+    "word": "glaze",
+    "kk": "ɡleɪz",
+    "pos": "n./v.",
+    "zh": "罩染",
+    "example": "Glaze the surface to add depth."
+  },
+  {
+    "id": "d4_canvas",
+    "day": 4,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d4_texture",
+    "day": 4,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d4_highlight",
+    "day": 4,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d4_outline",
+    "day": 4,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d4_pigment",
+    "day": 4,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d4_wash",
+    "day": 4,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d4_contrast",
+    "day": 4,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d4_palette",
+    "day": 4,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d5_highlight",
+    "day": 5,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d5_composition",
+    "day": 5,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d5_blending",
+    "day": 5,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d5_palette",
+    "day": 5,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d5_wash",
+    "day": 5,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d5_outline",
+    "day": 5,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d5_texture",
+    "day": 5,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d5_brushstroke",
+    "day": 5,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d5_easel",
+    "day": 5,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d5_underpainting",
+    "day": 5,
+    "word": "underpainting",
+    "kk": "ˈʌndərˌpeɪntɪŋ",
+    "pos": "n.",
+    "zh": "底層畫",
+    "example": "Start with a light underpainting."
+  },
+  {
+    "id": "d5_contrast",
+    "day": 5,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d5_glaze",
+    "day": 5,
+    "word": "glaze",
+    "kk": "ɡleɪz",
+    "pos": "n./v.",
+    "zh": "罩染",
+    "example": "Glaze the surface to add depth."
+  },
+  {
+    "id": "d5_layer",
+    "day": 5,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d5_pigment",
+    "day": 5,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d5_shadow",
+    "day": 5,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d6_composition",
+    "day": 6,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  },
+  {
+    "id": "d6_texture",
+    "day": 6,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d6_glaze",
+    "day": 6,
+    "word": "glaze",
+    "kk": "ɡleɪz",
+    "pos": "n./v.",
+    "zh": "罩染",
+    "example": "Glaze the surface to add depth."
+  },
+  {
+    "id": "d6_brushstroke",
+    "day": 6,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d6_canvas",
+    "day": 6,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d6_highlight",
+    "day": 6,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d6_palette",
+    "day": 6,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d6_contrast",
+    "day": 6,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d6_easel",
+    "day": 6,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d6_blending",
+    "day": 6,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d6_layer",
+    "day": 6,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d6_wash",
+    "day": 6,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d6_shadow",
+    "day": 6,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d6_pigment",
+    "day": 6,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d6_outline",
+    "day": 6,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d7_glaze",
+    "day": 7,
+    "word": "glaze",
+    "kk": "ɡleɪz",
+    "pos": "n./v.",
+    "zh": "罩染",
+    "example": "Glaze the surface to add depth."
+  },
+  {
+    "id": "d7_layer",
+    "day": 7,
+    "word": "layer",
+    "kk": "ˈleɪər",
+    "pos": "n./v.",
+    "zh": "層次",
+    "example": "Let each layer dry."
+  },
+  {
+    "id": "d7_shadow",
+    "day": 7,
+    "word": "shadow",
+    "kk": "ˈʃædoʊ",
+    "pos": "n.",
+    "zh": "陰影",
+    "example": "Keep the shadow soft here."
+  },
+  {
+    "id": "d7_wash",
+    "day": 7,
+    "word": "wash",
+    "kk": "wɑːʃ",
+    "pos": "n.",
+    "zh": "薄色塗層",
+    "example": "Add a light wash for the sky."
+  },
+  {
+    "id": "d7_contrast",
+    "day": 7,
+    "word": "contrast",
+    "kk": "ˈkɒntræst",
+    "pos": "n.",
+    "zh": "對比",
+    "example": "Increase contrast in the shadows."
+  },
+  {
+    "id": "d7_pigment",
+    "day": 7,
+    "word": "pigment",
+    "kk": "ˈpɪɡmənt",
+    "pos": "n.",
+    "zh": "顏料",
+    "example": "This pigment is highly saturated."
+  },
+  {
+    "id": "d7_outline",
+    "day": 7,
+    "word": "outline",
+    "kk": "ˈaʊtˌlaɪn",
+    "pos": "n./v.",
+    "zh": "輪廓",
+    "example": "Draw the outline first."
+  },
+  {
+    "id": "d7_palette",
+    "day": 7,
+    "word": "palette",
+    "kk": "ˈpælɪt",
+    "pos": "n.",
+    "zh": "調色盤",
+    "example": "I clean my palette after painting."
+  },
+  {
+    "id": "d7_canvas",
+    "day": 7,
+    "word": "canvas",
+    "kk": "ˈkænvəs",
+    "pos": "n.",
+    "zh": "畫布",
+    "example": "Paint on a large canvas."
+  },
+  {
+    "id": "d7_brushstroke",
+    "day": 7,
+    "word": "brushstroke",
+    "kk": "ˈbrʃˌstroʊk",
+    "pos": "n.",
+    "zh": "筆觸",
+    "example": "I love your bold brushstrokes."
+  },
+  {
+    "id": "d7_texture",
+    "day": 7,
+    "word": "texture",
+    "kk": "ˈtɛkstʃər",
+    "pos": "n.",
+    "zh": "肌理",
+    "example": "Dry brush adds texture."
+  },
+  {
+    "id": "d7_highlight",
+    "day": 7,
+    "word": "highlight",
+    "kk": "ˈhaɪˌlaɪt",
+    "pos": "n./v.",
+    "zh": "高光",
+    "example": "Add highlights to the edges."
+  },
+  {
+    "id": "d7_easel",
+    "day": 7,
+    "word": "easel",
+    "kk": "ˈiːzəl",
+    "pos": "n.",
+    "zh": "畫架",
+    "example": "Put it on the easel."
+  },
+  {
+    "id": "d7_blending",
+    "day": 7,
+    "word": "blending",
+    "kk": "ˈblɛndɪŋ",
+    "pos": "n.",
+    "zh": "暈染；融合",
+    "example": "Practice smooth blending."
+  },
+  {
+    "id": "d7_composition",
+    "day": 7,
+    "word": "composition",
+    "kk": "ˌkɒmpəˈzɪʃən",
+    "pos": "n.",
+    "zh": "構圖",
+    "example": "Check the composition first."
+  }
+]

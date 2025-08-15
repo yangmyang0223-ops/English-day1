@@ -1,58 +1,83 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "EN→ZH: composition",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "輪廓",
+      "構圖",
+      "顏料",
+      "薄色塗層"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 1
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "EN→ZH: layer",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "薄色塗層",
+      "暈染；融合",
+      "畫架",
+      "層次"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 3
   },
   {
-    "question": "What helps create texture?",
+    "question": "EN→ZH: underpainting",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "底層畫",
+      "肌理",
+      "調色盤",
+      "暈染；融合"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
+    "answer": 0
   },
   {
-    "question": "What do you find first before painting?",
+    "question": "EN→ZH: blending",
     "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
+      "暈染；融合",
+      "肌理",
+      "薄色塗層",
+      "底層畫"
     ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 畫架",
+    "options": [
+      "easel",
+      "outline",
+      "brushstroke",
+      "layer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 高光",
+    "options": [
+      "brushstroke",
+      "composition",
+      "underpainting",
+      "highlight"
+    ],
+    "answer": 3
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I place the focal point near the rule of thirds.",
     "options": [
       "用溫柔的筆觸把顏色融合。",
       "把顏色分開。",
       "只用一個顏色。",
       "把邊緣全部加硬。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'texture'",
+    "options": [
+      "Add texture to increase depth.",
+      "Put water on the texture.",
+      "Ignore the texture completely.",
+      "Erase the texture for more light."
+    ],
+    "answer": 0
   }
 ]
