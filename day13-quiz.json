@@ -1,58 +1,206 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "ZH→EN: 放鬆",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "vanishing point",
+      "value",
+      "complementary",
+      "cool down"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 3
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "ZH→EN: 素描",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "cool down",
+      "sketch",
+      "saturation",
+      "thumbnail"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 1
   },
   {
-    "question": "What helps create texture?",
+    "question": "ZH→EN: 線條粗細",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "ambient light",
+      "vanishing point",
+      "line weight",
+      "monochrome"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
-  },
-  {
-    "question": "What do you find first before painting?",
-    "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
-    ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 2
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I adjust the values to separate light and shadow.",
     "options": [
-      "用溫柔的筆觸把顏色融合。",
-      "把顏色分開。",
-      "只用一個顏色。",
-      "把邊緣全部加硬。"
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I place the vanishing point on the horizon line.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I soften the edges to create depth.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'cool down'",
+    "options": [
+      "Add cool down to improve clarity.",
+      "Forget about cool down entirely.",
+      "Erase the cool down immediately.",
+      "Only use cool down for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I layer thin glazes for luminosity.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: reference",
+    "options": [
+      "不透明度",
+      "環境光",
+      "參考",
+      "動態速寫"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "EN→ZH: cast shadow",
+    "options": [
+      "明度",
+      "線條粗細",
+      "單色調",
+      "投影"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "EN→ZH: opacity",
+    "options": [
+      "放鬆",
+      "中性灰",
+      "飽和度",
+      "不透明度"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Usage: Best sentence with 'sketch'",
+    "options": [
+      "Add sketch to improve clarity.",
+      "Forget about sketch entirely.",
+      "Erase the sketch immediately.",
+      "Only use sketch for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '中性灰'",
+    "options": [
+      "neutral gray",
+      "nautral gray",
+      "neutral gra",
+      "neutral grays"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'edge'",
+    "options": [
+      "Add edge to improve clarity.",
+      "Forget about edge entirely.",
+      "Erase the edge immediately.",
+      "Only use edge for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '參考'",
+    "options": [
+      "raference",
+      "referenc",
+      "references",
+      "reference"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "EN→ZH: warm up",
+    "options": [
+      "熱身",
+      "動態速寫",
+      "放鬆",
+      "透視格線"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: vanishing point",
+    "options": [
+      "透視",
+      "不透明度",
+      "消失點",
+      "縮略草圖"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '環境光'",
+    "options": [
+      "ambient ligh",
+      "ambient light",
+      "ambiant light",
+      "ambient lights"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 動態速寫",
+    "options": [
+      "perspective grid",
+      "gesture drawing",
+      "perspective",
+      "vanishing point"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 飽和度",
+    "options": [
+      "saturation",
+      "complementary",
+      "value",
+      "gesture drawing"
+    ],
+    "answer": 0
   }
 ]

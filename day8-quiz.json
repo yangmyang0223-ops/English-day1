@@ -1,58 +1,206 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "Usage: Best sentence with 'vanishing point'",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "Add vanishing point to improve clarity.",
+      "Forget about vanishing point entirely.",
+      "Erase the vanishing point immediately.",
+      "Only use vanishing point for borders."
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
-  },
-  {
-    "question": "Where should the focal point often be placed?",
-    "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
-    ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
-  },
-  {
-    "question": "What helps create texture?",
-    "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
-    ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
-  },
-  {
-    "question": "What do you find first before painting?",
-    "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
-    ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 0
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I place the vanishing point on the horizon line.",
     "options": [
-      "用溫柔的筆觸把顏色融合。",
-      "把顏色分開。",
-      "只用一個顏色。",
-      "把邊緣全部加硬。"
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: ambient light",
+    "options": [
+      "環境光",
+      "飽和度",
+      "素描",
+      "單色調"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 參考",
+    "options": [
+      "reference",
+      "monochrome",
+      "gesture drawing",
+      "saturation"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I layer thin glazes for luminosity.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: complementary",
+    "options": [
+      "色相",
+      "熱身",
+      "互補色",
+      "透視"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I compare shapes using negative space.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: cool down",
+    "options": [
+      "單色調",
+      "邊緣",
+      "素描",
+      "放鬆"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "ZH→EN: 素描",
+    "options": [
+      "sketch",
+      "ambient light",
+      "complementary",
+      "neutral gray"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '色相'",
+    "options": [
+      "hues",
+      "hue",
+      "hua",
+      "huee"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 單色調",
+    "options": [
+      "thumbnail",
+      "monochrome",
+      "perspective",
+      "value"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I choose complementary colors carefully.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '縮略草圖'",
+    "options": [
+      "thumbnai",
+      "thumbnails",
+      "thumbneil",
+      "thumbnail"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "ZH→EN: 放鬆",
+    "options": [
+      "opacity",
+      "cool down",
+      "hue",
+      "reference"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "ZH→EN: 縮略草圖",
+    "options": [
+      "vanishing point",
+      "thumbnail",
+      "line weight",
+      "monochrome"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "EN→ZH: perspective",
+    "options": [
+      "不透明度",
+      "色相",
+      "透視",
+      "消失點"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "EN→ZH: cast shadow",
+    "options": [
+      "投影",
+      "透視格線",
+      "放鬆",
+      "熱身"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'thumbnail'",
+    "options": [
+      "Add thumbnail to improve clarity.",
+      "Forget about thumbnail entirely.",
+      "Erase the thumbnail immediately.",
+      "Only use thumbnail for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '素描'",
+    "options": [
+      "sketc",
+      "sketchs",
+      "skatch",
+      "sketch"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Usage: Best sentence with 'monochrome'",
+    "options": [
+      "Add monochrome to improve clarity.",
+      "Forget about monochrome entirely.",
+      "Erase the monochrome immediately.",
+      "Only use monochrome for borders."
+    ],
+    "answer": 0
   }
 ]

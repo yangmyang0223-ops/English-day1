@@ -1,58 +1,206 @@
 [
   {
-    "question": "Which edge increases contrast?",
+    "question": "Spelling: pick the correct spelling for '色相'",
     "options": [
-      "Soft edge",
-      "Hard edge",
-      "Blurred edge",
-      "No edge"
+      "hua",
+      "huee",
+      "hue",
+      "hues"
     ],
-    "answer": 1,
-    "translation": "哪一種邊緣能提高對比？"
+    "answer": 2
   },
   {
-    "question": "Where should the focal point often be placed?",
+    "question": "Spelling: pick the correct spelling for '透視'",
     "options": [
-      "Center",
-      "Rule of thirds",
-      "Corner",
-      "Random"
+      "perspectiv",
+      "perspective",
+      "perspectives",
+      "parspective"
     ],
-    "answer": 1,
-    "translation": "焦點通常應放在哪？"
+    "answer": 1
   },
   {
-    "question": "What helps create texture?",
+    "question": "ZH→EN: 不透明度",
     "options": [
-      "Dry brush",
-      "More water only",
-      "Less pigment only",
-      "Erasing"
+      "opacity",
+      "saturation",
+      "warm up",
+      "reference"
     ],
-    "answer": 0,
-    "translation": "什麼有助於創造肌理？"
-  },
-  {
-    "question": "What do you find first before painting?",
-    "options": [
-      "The frame",
-      "The light source",
-      "The signature",
-      "The price"
-    ],
-    "answer": 1,
-    "translation": "作畫前先找什麼？"
+    "answer": 0
   },
   {
     "question": "▶️ Listening: choose the meaning",
-    "say": "Blend the colors with gentle strokes.",
+    "say": "I warm up with a few gesture drawings.",
     "options": [
-      "用溫柔的筆觸把顏色融合。",
-      "把顏色分開。",
-      "只用一個顏色。",
-      "把邊緣全部加硬。"
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
     ],
-    "answer": 0,
-    "translation": "聽力：選出句子意思"
+    "answer": 0
+  },
+  {
+    "question": "Usage: Best sentence with 'sketch'",
+    "options": [
+      "Add sketch to improve clarity.",
+      "Forget about sketch entirely.",
+      "Erase the sketch immediately.",
+      "Only use sketch for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: neutral gray",
+    "options": [
+      "明度",
+      "中性灰",
+      "參考",
+      "飽和度"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Spelling: pick the correct spelling for '透視格線'",
+    "options": [
+      "perspective grids",
+      "parspective grid",
+      "perspective grid",
+      "perspective gri"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "ZH→EN: 消失點",
+    "options": [
+      "complementary",
+      "vanishing point",
+      "gesture drawing",
+      "ambient light"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I rotate the canvas to check proportions.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: hue",
+    "options": [
+      "色相",
+      "透視格線",
+      "線條粗細",
+      "透視"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: complementary",
+    "options": [
+      "動態速寫",
+      "素描",
+      "透視",
+      "互補色"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "ZH→EN: 明度",
+    "options": [
+      "reference",
+      "value",
+      "gesture drawing",
+      "perspective"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Usage: Best sentence with 'gesture drawing'",
+    "options": [
+      "Add gesture drawing to improve clarity.",
+      "Forget about gesture drawing entirely.",
+      "Erase the gesture drawing immediately.",
+      "Only use gesture drawing for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 邊緣",
+    "options": [
+      "value",
+      "edge",
+      "perspective",
+      "ambient light"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Usage: Best sentence with 'hue'",
+    "options": [
+      "Add hue to improve clarity.",
+      "Forget about hue entirely.",
+      "Erase the hue immediately.",
+      "Only use hue for borders."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I step back to evaluate the composition.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "EN→ZH: edge",
+    "options": [
+      "投影",
+      "消失點",
+      "透視",
+      "邊緣"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "▶️ Listening: choose the meaning",
+    "say": "I compare shapes using negative space.",
+    "options": [
+      "我調整明暗來區分光與影。",
+      "把顏色全部擦掉。",
+      "只畫背景。",
+      "不用任何草圖。"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "ZH→EN: 透視",
+    "options": [
+      "warm up",
+      "vanishing point",
+      "hue",
+      "perspective"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "EN→ZH: warm up",
+    "options": [
+      "透視格線",
+      "熱身",
+      "環境光",
+      "參考"
+    ],
+    "answer": 1
   }
 ]

@@ -1,1 +1,1 @@
-window.speak=(t=>{try{const u=new SpeechSynthesisUtterance(String(t||'').trim());u.lang='en-US';u.rate=1;u.pitch=1;speechSynthesis.cancel();speechSynthesis.speak(u);}catch(e){console.warn(e)}});
+window.speak=(t=>{try{const s=String(t||'').trim(); if(!s) return; const u=new SpeechSynthesisUtterance(s);u.lang='en-US'; u.rate=1; u.pitch=1; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){console.warn(e)}});document.addEventListener('click',e=>{const el=e.target.closest('.say'); if(el&&el.dataset.say){window.speak(el.dataset.say);}});
